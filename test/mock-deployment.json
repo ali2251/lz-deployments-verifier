@@ -1,0 +1,14 @@
+{
+  "canonicalName": "canary-sponsored-mock",
+  "config": {
+    "contractVersion": "1.1",
+    "contractAddresses": {
+      "ethereum": "0xf9d2c0915cac4c75b7ae359089333c8ac258e12c",
+      "arbitrum": "0xbacfe8d53f8728b8980b9f99e897d8b29334c922",
+      "polygon": "0xe34a8d1c1e8ec397314ac019879df14de9bcf490",
+      "solana": "FGfRUbiNjXJ5FaVzWj7gcnUJMYTiCLPmgTVeeozWooZB",
+      "metis": "0xe882f010b29f07251d24fb5c9f62f42a912114a2",
+      "fuse": "0xa29e324aa1c75b37bd55d56c2d1417c581796529"
+    }
+  }
+}

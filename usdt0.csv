@@ -1,0 +1,1132 @@
+Source,Target,Volume,Direction
+Arbitrum One,Avalanche,793106.87,outbound
+Arbitrum One,Berachain,105266164.32,outbound
+Arbitrum One,BNB Chain,64238.06,outbound
+Arbitrum One,Celo,24735955.32,outbound
+Arbitrum One,Conflux eSpace,11463626.54,outbound
+Arbitrum One,Corn,2000890.25,outbound
+Arbitrum One,Ethereum,5999223873.24,outbound
+Arbitrum One,Flare,125850897.88,outbound
+Arbitrum One,Hedera,259539.31,outbound
+Arbitrum One,HyperEVM,490436526.71,outbound
+Arbitrum One,Ink,267532611.92,outbound
+Arbitrum One,Mantle,15812230.93,outbound
+Arbitrum One,MegaETH,14429013.93,outbound
+Arbitrum One,Monad,88158796.41,outbound
+Arbitrum One,Morph,5132.85,outbound
+Arbitrum One,Optimism,50496949.37,outbound
+Arbitrum One,Plasma,1482982228.45,outbound
+Arbitrum One,Polygon PoS,125058131.88,outbound
+Arbitrum One,Rootstock,9940586.88,outbound
+Arbitrum One,Sei,240768684.26,outbound
+Arbitrum One,Solana,27012225.74,outbound
+Arbitrum One,Stable,9085712.99,outbound
+Arbitrum One,Stellar,1502.15,outbound
+Arbitrum One,Tempo,9061815.62,outbound
+Arbitrum One,TON,5795849.38,outbound
+Arbitrum One,Tron,291491044.59,outbound
+Arbitrum One,Unichain,752500046.21,outbound
+Arbitrum One,XLayer,123914237,outbound
+Avalanche,Arbitrum One,1100749.16,outbound
+Avalanche,BNB Chain,2641871.59,outbound
+Avalanche,Celo,992223.61,outbound
+Avalanche,Conflux eSpace,388.91,outbound
+Avalanche,Ethereum,30405374.54,outbound
+Avalanche,HyperEVM,4782976.74,outbound
+Avalanche,Ink,17107.54,outbound
+Avalanche,Monad,23288387.56,outbound
+Avalanche,Plasma,914410.51,outbound
+Avalanche,Polygon PoS,4400.64,outbound
+Avalanche,Solana,17897359.21,outbound
+Avalanche,Stable,31.76,outbound
+Avalanche,TON,811639.58,outbound
+Berachain,Arbitrum One,105700516.11,outbound
+Berachain,Conflux eSpace,20.36,outbound
+Berachain,Corn,137054.1,outbound
+Berachain,Ethereum,858486498.08,outbound
+Berachain,Flare,8787162.77,outbound
+Berachain,Hedera,3003.5,outbound
+Berachain,HyperEVM,7166273.42,outbound
+Berachain,Ink,6997361.9,outbound
+Berachain,Mantle,30202,outbound
+Berachain,MegaETH,2591674.89,outbound
+Berachain,Monad,13624958.82,outbound
+Berachain,Morph,0,outbound
+Berachain,Optimism,14894179.91,outbound
+Berachain,Plasma,27226258.62,outbound
+Berachain,Polygon PoS,9101129.61,outbound
+Berachain,Rootstock,23942.76,outbound
+Berachain,Sei,10562525.21,outbound
+Berachain,Stable,17606.85,outbound
+Berachain,Stellar,1,outbound
+Berachain,Tempo,237.23,outbound
+Berachain,Unichain,13223594.11,outbound
+Berachain,XLayer,1709594.15,outbound
+BNB Chain,Arbitrum One,63471.2,outbound
+BNB Chain,Avalanche,10776.29,outbound
+BNB Chain,Celo,6322.51,outbound
+BNB Chain,Conflux eSpace,22376.9,outbound
+BNB Chain,Ethereum,641054.44,outbound
+BNB Chain,HyperEVM,15505.77,outbound
+BNB Chain,Ink,499.77,outbound
+BNB Chain,Monad,312623.5,outbound
+BNB Chain,Plasma,19563.68,outbound
+BNB Chain,Polygon PoS,1632.8,outbound
+BNB Chain,Solana,4744.02,outbound
+BNB Chain,Stable,10858.41,outbound
+Celo,Arbitrum One,9310037.57,outbound
+Celo,Avalanche,312481.9,outbound
+Celo,BNB Chain,2185.62,outbound
+Celo,Ethereum,23031055.01,outbound
+Celo,HyperEVM,1973.63,outbound
+Celo,Ink,494.01,outbound
+Celo,Monad,386767.82,outbound
+Celo,Plasma,34413.46,outbound
+Celo,Polygon PoS,2159.79,outbound
+Celo,Solana,320659.76,outbound
+Celo,Stable,0,outbound
+Celo,TON,627.15,outbound
+Celo,Tron,4475392.78,outbound
+Conflux eSpace,Arbitrum One,10029018.99,outbound
+Conflux eSpace,Avalanche,13137.29,outbound
+Conflux eSpace,Berachain,128.12,outbound
+Conflux eSpace,BNB Chain,1711.38,outbound
+Conflux eSpace,Corn,0,outbound
+Conflux eSpace,Ethereum,15392477.52,outbound
+Conflux eSpace,Hedera,0,outbound
+Conflux eSpace,HyperEVM,31.84,outbound
+Conflux eSpace,Ink,2.2,outbound
+Conflux eSpace,Mantle,1,outbound
+Conflux eSpace,MegaETH,0,outbound
+Conflux eSpace,Monad,12263380.12,outbound
+Conflux eSpace,Morph,0,outbound
+Conflux eSpace,Optimism,5091.12,outbound
+Conflux eSpace,Plasma,93674.89,outbound
+Conflux eSpace,Polygon PoS,2054291.67,outbound
+Conflux eSpace,Rootstock,0,outbound
+Conflux eSpace,Sei,0,outbound
+Conflux eSpace,Stable,0,outbound
+Conflux eSpace,Tempo,0,outbound
+Conflux eSpace,Unichain,332.36,outbound
+Conflux eSpace,XLayer,6957,outbound
+Corn,Arbitrum One,1318475.63,outbound
+Corn,Berachain,166273.15,outbound
+Corn,Conflux eSpace,0,outbound
+Corn,Ethereum,10751018.2,outbound
+Corn,Flare,26045.09,outbound
+Corn,Hedera,0,outbound
+Corn,HyperEVM,68180.41,outbound
+Corn,Ink,9115.51,outbound
+Corn,Mantle,0,outbound
+Corn,MegaETH,0,outbound
+Corn,Monad,308.05,outbound
+Corn,Morph,0,outbound
+Corn,Optimism,156075.24,outbound
+Corn,Plasma,11696373.76,outbound
+Corn,Polygon PoS,12920.37,outbound
+Corn,Rootstock,1261.39,outbound
+Corn,Sei,18389.3,outbound
+Corn,Stable,1028.31,outbound
+Corn,Tempo,0,outbound
+Corn,Unichain,244224.4,outbound
+Corn,XLayer,355.91,outbound
+Ethereum,Arbitrum One,6973148703.77,outbound
+Ethereum,Avalanche,30098651.17,outbound
+Ethereum,Berachain,901320152.78,outbound
+Ethereum,BNB Chain,55808324.01,outbound
+Ethereum,Celo,16550561.91,outbound
+Ethereum,Conflux eSpace,13157591.75,outbound
+Ethereum,Corn,21483900.19,outbound
+Ethereum,Flare,679924117.04,outbound
+Ethereum,Hedera,114480.08,outbound
+Ethereum,HyperEVM,978290079.16,outbound
+Ethereum,Ink,1293641387.66,outbound
+Ethereum,Mantle,2029839438.15,outbound
+Ethereum,MegaETH,110593219.09,outbound
+Ethereum,Monad,600546142.99,outbound
+Ethereum,Morph,5139719.23,outbound
+Ethereum,Optimism,87832937.15,outbound
+Ethereum,Plasma,27242442103.49,outbound
+Ethereum,Polygon PoS,2332059428.25,outbound
+Ethereum,Rootstock,10848942.65,outbound
+Ethereum,Sei,96783833.09,outbound
+Ethereum,Solana,84951314.54,outbound
+Ethereum,Stable,1360700829.48,outbound
+Ethereum,Stellar,2593532.54,outbound
+Ethereum,Tempo,15715552.2,outbound
+Ethereum,TON,70684377.6,outbound
+Ethereum,Tron,2896486766.63,outbound
+Ethereum,Unichain,1543687779.07,outbound
+Ethereum,XLayer,369422611.03,outbound
+Flare,Arbitrum One,170108228.08,outbound
+Flare,Berachain,5141171.1,outbound
+Flare,Corn,81513.88,outbound
+Flare,Ethereum,621471209.79,outbound
+Flare,Hedera,3303.4,outbound
+Flare,HyperEVM,12091639.6,outbound
+Flare,Ink,597096.88,outbound
+Flare,Mantle,403476.18,outbound
+Flare,MegaETH,146454.08,outbound
+Flare,Monad,7060258.89,outbound
+Flare,Morph,0,outbound
+Flare,Optimism,5374613.63,outbound
+Flare,Plasma,33673214.43,outbound
+Flare,Polygon PoS,4448598.78,outbound
+Flare,Rootstock,190127.07,outbound
+Flare,Sei,3421594.11,outbound
+Flare,Stable,26977.81,outbound
+Flare,Stellar,157.61,outbound
+Flare,Tempo,1,outbound
+Flare,Unichain,11917355.35,outbound
+Flare,XLayer,64923.81,outbound
+Hedera,Arbitrum One,18727.56,outbound
+Hedera,Berachain,2,outbound
+Hedera,Ethereum,165557.59,outbound
+Hedera,Flare,663.76,outbound
+Hedera,HyperEVM,50243.01,outbound
+Hedera,Ink,159034.68,outbound
+Hedera,Monad,1075,outbound
+Hedera,Polygon PoS,3117.96,outbound
+Hedera,Tempo,0,outbound
+HyperEVM,Arbitrum One,207166499.24,outbound
+HyperEVM,Avalanche,3330364.66,outbound
+HyperEVM,Berachain,624702.73,outbound
+HyperEVM,BNB Chain,20230.12,outbound
+HyperEVM,Celo,3869.59,outbound
+HyperEVM,Conflux eSpace,5000,outbound
+HyperEVM,Corn,5334.71,outbound
+HyperEVM,Ethereum,1263645250.25,outbound
+HyperEVM,Flare,1629764.03,outbound
+HyperEVM,Hedera,36910.05,outbound
+HyperEVM,Ink,4955592.03,outbound
+HyperEVM,Mantle,114246.47,outbound
+HyperEVM,MegaETH,683160.76,outbound
+HyperEVM,Monad,762578.88,outbound
+HyperEVM,Morph,0,outbound
+HyperEVM,Optimism,3485443.2,outbound
+HyperEVM,Plasma,112424213.36,outbound
+HyperEVM,Polygon PoS,2179127.35,outbound
+HyperEVM,Rootstock,4337.24,outbound
+HyperEVM,Sei,595691.42,outbound
+HyperEVM,Solana,1733536.09,outbound
+HyperEVM,Stable,405330.31,outbound
+HyperEVM,Stellar,13.33,outbound
+HyperEVM,Tempo,18055.26,outbound
+HyperEVM,TON,102978.5,outbound
+HyperEVM,Unichain,4525478.58,outbound
+HyperEVM,XLayer,635976.08,outbound
+Ink,Arbitrum One,142245981.86,outbound
+Ink,Avalanche,11248.62,outbound
+Ink,Berachain,3674213.37,outbound
+Ink,BNB Chain,654.58,outbound
+Ink,Celo,839.32,outbound
+Ink,Conflux eSpace,25099.03,outbound
+Ink,Corn,12704.52,outbound
+Ink,Ethereum,1168928170.9,outbound
+Ink,Flare,1200996.67,outbound
+Ink,Hedera,0,outbound
+Ink,HyperEVM,16270768.48,outbound
+Ink,Mantle,8969649.97,outbound
+Ink,MegaETH,1088184.44,outbound
+Ink,Monad,4087319.1,outbound
+Ink,Morph,25.04,outbound
+Ink,Optimism,19895372.36,outbound
+Ink,Plasma,247157428.12,outbound
+Ink,Polygon PoS,31979055.65,outbound
+Ink,Rootstock,84772.96,outbound
+Ink,Sei,828340.17,outbound
+Ink,Solana,1633.93,outbound
+Ink,Stable,4353157.36,outbound
+Ink,Stellar,2.2,outbound
+Ink,Tempo,213401.93,outbound
+Ink,TON,2.05,outbound
+Ink,Unichain,22078945.14,outbound
+Ink,XLayer,1938938.12,outbound
+Mantle,Arbitrum One,5337887.76,outbound
+Mantle,Berachain,60130.07,outbound
+Mantle,Conflux eSpace,1,outbound
+Mantle,Corn,0,outbound
+Mantle,Ethereum,1541053465.2,outbound
+Mantle,Flare,542112.48,outbound
+Mantle,Hedera,0,outbound
+Mantle,HyperEVM,151442.94,outbound
+Mantle,Ink,3860934.37,outbound
+Mantle,MegaETH,221835.7,outbound
+Mantle,Monad,3831792.37,outbound
+Mantle,Morph,0,outbound
+Mantle,Optimism,217439.55,outbound
+Mantle,Plasma,267180137.54,outbound
+Mantle,Polygon PoS,766164.87,outbound
+Mantle,Rootstock,33095.03,outbound
+Mantle,Sei,16008.95,outbound
+Mantle,Stable,95352.73,outbound
+Mantle,Tempo,7933,outbound
+Mantle,Unichain,105873.42,outbound
+Mantle,XLayer,20961.68,outbound
+MegaETH,Arbitrum One,15008121.87,outbound
+MegaETH,Berachain,145986.88,outbound
+MegaETH,Corn,575.27,outbound
+MegaETH,Ethereum,115801559.34,outbound
+MegaETH,Flare,817016.26,outbound
+MegaETH,Hedera,1000.75,outbound
+MegaETH,HyperEVM,870030.74,outbound
+MegaETH,Ink,483647.07,outbound
+MegaETH,Mantle,312975.44,outbound
+MegaETH,Monad,330790.47,outbound
+MegaETH,Morph,0.45,outbound
+MegaETH,Optimism,143115.73,outbound
+MegaETH,Plasma,6116069.33,outbound
+MegaETH,Polygon PoS,1732170.68,outbound
+MegaETH,Rootstock,3326.61,outbound
+MegaETH,Sei,46403.26,outbound
+MegaETH,Stable,305949.97,outbound
+MegaETH,Stellar,0,outbound
+MegaETH,Tempo,8545.55,outbound
+MegaETH,Unichain,52697.55,outbound
+MegaETH,XLayer,124797.3,outbound
+Monad,Arbitrum One,27854278.88,outbound
+Monad,Avalanche,6447931.36,outbound
+Monad,Berachain,25146251.82,outbound
+Monad,BNB Chain,124797.97,outbound
+Monad,Celo,27730.86,outbound
+Monad,Conflux eSpace,12213268.43,outbound
+Monad,Ethereum,520431398.32,outbound
+Monad,Flare,8307850.92,outbound
+Monad,Hedera,528.43,outbound
+Monad,HyperEVM,2491456.86,outbound
+Monad,Ink,3406477.18,outbound
+Monad,Mantle,35268739.54,outbound
+Monad,MegaETH,390489.36,outbound
+Monad,Morph,0,outbound
+Monad,Optimism,982201.9,outbound
+Monad,Plasma,232840230.72,outbound
+Monad,Polygon PoS,6848799.71,outbound
+Monad,Rootstock,84531.86,outbound
+Monad,Sei,381375.09,outbound
+Monad,Stable,982923.25,outbound
+Monad,Stellar,0,outbound
+Monad,Tempo,0.86,outbound
+Monad,Unichain,135023.58,outbound
+Monad,XLayer,2193519.49,outbound
+Morph,Arbitrum One,106923.79,outbound
+Morph,Berachain,544.71,outbound
+Morph,Conflux eSpace,0,outbound
+Morph,Corn,0,outbound
+Morph,Ethereum,70518.91,outbound
+Morph,Flare,3987.9,outbound
+Morph,Hedera,0,outbound
+Morph,HyperEVM,48707.36,outbound
+Morph,Ink,375.04,outbound
+Morph,Mantle,0,outbound
+Morph,MegaETH,1.01,outbound
+Morph,Monad,93478.56,outbound
+Morph,Optimism,421094.55,outbound
+Morph,Plasma,1293.88,outbound
+Morph,Polygon PoS,29965.85,outbound
+Morph,Rootstock,0,outbound
+Morph,Sei,0,outbound
+Morph,Stable,0,outbound
+Morph,Stellar,1.17,outbound
+Morph,Tempo,0,outbound
+Morph,Unichain,0,outbound
+Morph,XLayer,0,outbound
+Optimism,Arbitrum One,42387762.08,outbound
+Optimism,Berachain,3627967.3,outbound
+Optimism,Conflux eSpace,831.93,outbound
+Optimism,Corn,133036.67,outbound
+Optimism,Ethereum,93891144.31,outbound
+Optimism,Flare,4325566.86,outbound
+Optimism,Hedera,700.48,outbound
+Optimism,HyperEVM,7388382.63,outbound
+Optimism,Ink,18471910.16,outbound
+Optimism,Mantle,232715.02,outbound
+Optimism,MegaETH,173303.08,outbound
+Optimism,Monad,1096111.19,outbound
+Optimism,Morph,265539.07,outbound
+Optimism,Plasma,9150611.46,outbound
+Optimism,Polygon PoS,4386258.12,outbound
+Optimism,Rootstock,569047.98,outbound
+Optimism,Sei,1746380.87,outbound
+Optimism,Stable,20012.02,outbound
+Optimism,Stellar,1,outbound
+Optimism,Tempo,252.06,outbound
+Optimism,Unichain,62657582.33,outbound
+Optimism,XLayer,741977.39,outbound
+Plasma,Arbitrum One,645373586.57,outbound
+Plasma,Avalanche,1255459.33,outbound
+Plasma,Berachain,2843704.82,outbound
+Plasma,BNB Chain,1,outbound
+Plasma,Celo,54652.66,outbound
+Plasma,Conflux eSpace,1929539.08,outbound
+Plasma,Corn,254.5,outbound
+Plasma,Ethereum,28451742340.21,outbound
+Plasma,Flare,11576135.81,outbound
+Plasma,Hedera,6000.89,outbound
+Plasma,HyperEVM,95109765.94,outbound
+Plasma,Ink,63052873.18,outbound
+Plasma,Mantle,175259033.65,outbound
+Plasma,MegaETH,4279501.17,outbound
+Plasma,Monad,69008687.79,outbound
+Plasma,Morph,1304.96,outbound
+Plasma,Optimism,5275448.78,outbound
+Plasma,Polygon PoS,21754048.3,outbound
+Plasma,Rootstock,162787.13,outbound
+Plasma,Sei,9438208.31,outbound
+Plasma,Solana,140563.61,outbound
+Plasma,Stable,10141235.21,outbound
+Plasma,Stellar,0,outbound
+Plasma,Tempo,7248033.42,outbound
+Plasma,Unichain,7898044.87,outbound
+Plasma,XLayer,1578103.92,outbound
+Polygon PoS,Arbitrum One,194896141.32,outbound
+Polygon PoS,Avalanche,3402.35,outbound
+Polygon PoS,Berachain,6773197.91,outbound
+Polygon PoS,BNB Chain,386.56,outbound
+Polygon PoS,Celo,2288.82,outbound
+Polygon PoS,Conflux eSpace,21203564.84,outbound
+Polygon PoS,Corn,2971.33,outbound
+Polygon PoS,Ethereum,2135345195.9,outbound
+Polygon PoS,Flare,22691202.57,outbound
+Polygon PoS,Hedera,61020.81,outbound
+Polygon PoS,HyperEVM,75484001.51,outbound
+Polygon PoS,Ink,41652095.03,outbound
+Polygon PoS,Mantle,4221776.2,outbound
+Polygon PoS,MegaETH,8762721.88,outbound
+Polygon PoS,Monad,121312134.33,outbound
+Polygon PoS,Morph,44506.99,outbound
+Polygon PoS,Optimism,16264501.72,outbound
+Polygon PoS,Plasma,446819432.22,outbound
+Polygon PoS,Rootstock,74755.04,outbound
+Polygon PoS,Sei,19544723.8,outbound
+Polygon PoS,Solana,5394.35,outbound
+Polygon PoS,Stable,12718738.44,outbound
+Polygon PoS,Stellar,1182.73,outbound
+Polygon PoS,Tempo,36157701.33,outbound
+Polygon PoS,Unichain,9856762.62,outbound
+Polygon PoS,XLayer,36628771.32,outbound
+Rootstock,Arbitrum One,8833976.23,outbound
+Rootstock,Berachain,1817.48,outbound
+Rootstock,Conflux eSpace,57.27,outbound
+Rootstock,Corn,128.81,outbound
+Rootstock,Ethereum,6582238.14,outbound
+Rootstock,Flare,82972.92,outbound
+Rootstock,Hedera,0,outbound
+Rootstock,HyperEVM,17747.3,outbound
+Rootstock,Ink,4896.12,outbound
+Rootstock,Mantle,178533.82,outbound
+Rootstock,MegaETH,25000,outbound
+Rootstock,Monad,35206.56,outbound
+Rootstock,Morph,0,outbound
+Rootstock,Optimism,757409.51,outbound
+Rootstock,Plasma,3515114.12,outbound
+Rootstock,Polygon PoS,497524.5,outbound
+Rootstock,Sei,12334.85,outbound
+Rootstock,Stable,107,outbound
+Rootstock,Tempo,0,outbound
+Rootstock,Unichain,158227.62,outbound
+Rootstock,XLayer,3.1,outbound
+Sei,Arbitrum One,195596201.86,outbound
+Sei,Berachain,7849155.51,outbound
+Sei,Conflux eSpace,0,outbound
+Sei,Corn,139880.73,outbound
+Sei,Ethereum,112118609.69,outbound
+Sei,Flare,4431580.19,outbound
+Sei,Hedera,0,outbound
+Sei,HyperEVM,2528172.21,outbound
+Sei,Ink,529600.74,outbound
+Sei,Mantle,10078.48,outbound
+Sei,MegaETH,3649.37,outbound
+Sei,Monad,1312243.66,outbound
+Sei,Morph,12.61,outbound
+Sei,Optimism,2292289.83,outbound
+Sei,Plasma,39010036.83,outbound
+Sei,Polygon PoS,15459320.6,outbound
+Sei,Rootstock,275562.46,outbound
+Sei,Stable,469.36,outbound
+Sei,Tempo,100264.33,outbound
+Sei,Unichain,1453225.87,outbound
+Sei,XLayer,913526.08,outbound
+Solana,Arbitrum One,11974530.19,outbound
+Solana,Avalanche,41922678.8,outbound
+Solana,Celo,603712.86,outbound
+Solana,Ethereum,34429442.03,outbound
+Solana,HyperEVM,2197304.96,outbound
+Solana,Ink,202.81,outbound
+Solana,Plasma,79694.76,outbound
+Solana,Polygon PoS,6071.65,outbound
+Solana,Stable,0,outbound
+Solana,TON,795603.1,outbound
+Solana,Tron,67473772.01,outbound
+Stable,Arbitrum One,87682025.23,outbound
+Stable,Avalanche,1397.15,outbound
+Stable,Berachain,181135.18,outbound
+Stable,BNB Chain,3546.5,outbound
+Stable,Celo,852.16,outbound
+Stable,Conflux eSpace,5000,outbound
+Stable,Corn,107,outbound
+Stable,Ethereum,1174120711.35,outbound
+Stable,Flare,453800.51,outbound
+Stable,Hedera,0,outbound
+Stable,HyperEVM,7014972.42,outbound
+Stable,Ink,7226558.38,outbound
+Stable,Mantle,121412.56,outbound
+Stable,MegaETH,464698.44,outbound
+Stable,Monad,6492209.08,outbound
+Stable,Morph,3,outbound
+Stable,Optimism,469884.64,outbound
+Stable,Plasma,82879572.81,outbound
+Stable,Polygon PoS,7985827.52,outbound
+Stable,Rootstock,90001.2,outbound
+Stable,Sei,264569.11,outbound
+Stable,Solana,0,outbound
+Stable,Stellar,0.06,outbound
+Stable,Tempo,30003.2,outbound
+Stable,Unichain,21098.89,outbound
+Stable,XLayer,226886.71,outbound
+Stellar,Arbitrum One,11549.99,outbound
+Stellar,Berachain,1,outbound
+Stellar,Ethereum,112.4,outbound
+Stellar,Flare,0.08,outbound
+Stellar,HyperEVM,0.12,outbound
+Stellar,Ink,0.13,outbound
+Stellar,MegaETH,0.12,outbound
+Stellar,Monad,0.1,outbound
+Stellar,Optimism,1,outbound
+Stellar,Plasma,0.33,outbound
+Stellar,Polygon PoS,37.79,outbound
+Stellar,Sei,0,outbound
+Stellar,Tempo,0,outbound
+Tempo,Arbitrum One,15419469.29,outbound
+Tempo,Ethereum,1388902.3,outbound
+Tempo,HyperEVM,467.01,outbound
+Tempo,Ink,515219.55,outbound
+Tempo,Mantle,1,outbound
+Tempo,MegaETH,3993.86,outbound
+Tempo,Monad,3000.76,outbound
+Tempo,Optimism,3085.53,outbound
+Tempo,Plasma,1335566.3,outbound
+Tempo,Polygon PoS,40218860.55,outbound
+Tempo,Stable,2416.62,outbound
+Tempo,Stellar,0,outbound
+Tempo,Unichain,1,outbound
+TON,Arbitrum One,2847754.67,outbound
+TON,Avalanche,146805.39,outbound
+TON,Celo,6003.16,outbound
+TON,Ethereum,70023544.59,outbound
+TON,HyperEVM,180422.33,outbound
+TON,Ink,0,outbound
+TON,Polygon PoS,10151.23,outbound
+TON,Solana,1269241.36,outbound
+TON,Tron,63224958.14,outbound
+Tron,Arbitrum One,556628127.49,outbound
+Tron,Celo,7576.09,outbound
+Tron,Ethereum,2409522623.08,outbound
+Tron,Solana,97335552.01,outbound
+Tron,TON,104532073.31,outbound
+Unichain,Arbitrum One,666103464.57,outbound
+Unichain,Berachain,61121876.48,outbound
+Unichain,Conflux eSpace,330.36,outbound
+Unichain,Corn,498918.28,outbound
+Unichain,Ethereum,1552017770.09,outbound
+Unichain,Flare,26591338.29,outbound
+Unichain,Hedera,10,outbound
+Unichain,HyperEVM,9203542.2,outbound
+Unichain,Ink,21679741.12,outbound
+Unichain,Mantle,8105.74,outbound
+Unichain,MegaETH,108212.75,outbound
+Unichain,Monad,94773.46,outbound
+Unichain,Morph,211.27,outbound
+Unichain,Optimism,53617028.6,outbound
+Unichain,Plasma,16615591.49,outbound
+Unichain,Polygon PoS,12227659.11,outbound
+Unichain,Rootstock,575870.95,outbound
+Unichain,Sei,1740027.81,outbound
+Unichain,Stable,19179.71,outbound
+Unichain,Tempo,877.77,outbound
+Unichain,XLayer,1330836.46,outbound
+XLayer,Arbitrum One,11493067.75,outbound
+XLayer,Berachain,2169.94,outbound
+XLayer,Conflux eSpace,10746.67,outbound
+XLayer,Corn,2323.08,outbound
+XLayer,Ethereum,410898085.61,outbound
+XLayer,Flare,30926.54,outbound
+XLayer,Hedera,0,outbound
+XLayer,HyperEVM,48128.02,outbound
+XLayer,Ink,172885.77,outbound
+XLayer,Mantle,21697.17,outbound
+XLayer,MegaETH,21235.02,outbound
+XLayer,Monad,63588.26,outbound
+XLayer,Morph,0,outbound
+XLayer,Optimism,192035.4,outbound
+XLayer,Plasma,2374899.91,outbound
+XLayer,Polygon PoS,4234733.99,outbound
+XLayer,Rootstock,501.61,outbound
+XLayer,Sei,280.74,outbound
+XLayer,Stable,6920.63,outbound
+XLayer,Tempo,0.02,outbound
+XLayer,Unichain,126466.27,outbound
+Arbitrum One,Avalanche,793087.95,inbound
+Arbitrum One,Berachain,105266164.32,inbound
+Arbitrum One,BNB Chain,64252.4,inbound
+Arbitrum One,Celo,24728550.99,inbound
+Arbitrum One,Conflux eSpace,11463626.54,inbound
+Arbitrum One,Corn,2000890.25,inbound
+Arbitrum One,Ethereum,5999212124.16,inbound
+Arbitrum One,Flare,125850897.88,inbound
+Arbitrum One,Hedera,259538.31,inbound
+Arbitrum One,HyperEVM,490436502.68,inbound
+Arbitrum One,Ink,267532611.92,inbound
+Arbitrum One,Mantle,15812230.93,inbound
+Arbitrum One,MegaETH,14429013.93,inbound
+Arbitrum One,Monad,88158798.58,inbound
+Arbitrum One,Morph,5132.85,inbound
+Arbitrum One,Optimism,50496949.37,inbound
+Arbitrum One,Plasma,1482982212.99,inbound
+Arbitrum One,Polygon PoS,125058128.42,inbound
+Arbitrum One,Rootstock,9940586.88,inbound
+Arbitrum One,Sei,240768684.26,inbound
+Arbitrum One,Solana,27040608.58,inbound
+Arbitrum One,Stable,9085707.99,inbound
+Arbitrum One,Stellar,1502.15,inbound
+Arbitrum One,Tempo,9061815.62,inbound
+Arbitrum One,TON,5794006.15,inbound
+Arbitrum One,Tron,291401636.76,inbound
+Arbitrum One,Unichain,752500046.21,inbound
+Arbitrum One,XLayer,123913258.44,inbound
+Avalanche,Arbitrum One,1100716.33,inbound
+Avalanche,BNB Chain,2641871.59,inbound
+Avalanche,Celo,992201.24,inbound
+Avalanche,Conflux eSpace,388.91,inbound
+Avalanche,Ethereum,30429459.72,inbound
+Avalanche,HyperEVM,4782933.13,inbound
+Avalanche,Ink,17107.55,inbound
+Avalanche,Monad,23288572.5,inbound
+Avalanche,Plasma,914437.87,inbound
+Avalanche,Polygon PoS,4400.8,inbound
+Avalanche,Solana,17897719.78,inbound
+Avalanche,Stable,31.76,inbound
+Avalanche,TON,811639.58,inbound
+Berachain,Arbitrum One,105700516.11,inbound
+Berachain,Conflux eSpace,20.36,inbound
+Berachain,Corn,137054.1,inbound
+Berachain,Ethereum,858486498.08,inbound
+Berachain,Flare,8787162.77,inbound
+Berachain,Hedera,3003.5,inbound
+Berachain,HyperEVM,7166273.42,inbound
+Berachain,Ink,6997361.9,inbound
+Berachain,Mantle,30202,inbound
+Berachain,MegaETH,2591674.89,inbound
+Berachain,Monad,13624958.82,inbound
+Berachain,Morph,0,inbound
+Berachain,Optimism,14894179.91,inbound
+Berachain,Plasma,27226258.62,inbound
+Berachain,Polygon PoS,9101129.61,inbound
+Berachain,Rootstock,23942.76,inbound
+Berachain,Sei,10562525.21,inbound
+Berachain,Stable,17606.85,inbound
+Berachain,Stellar,1,inbound
+Berachain,Tempo,237.23,inbound
+Berachain,Unichain,13223594.11,inbound
+Berachain,XLayer,1709594.15,inbound
+BNB Chain,Arbitrum One,63496.12,inbound
+BNB Chain,Avalanche,10776.38,inbound
+BNB Chain,Celo,6322.51,inbound
+BNB Chain,Conflux eSpace,22376.9,inbound
+BNB Chain,Ethereum,641123.99,inbound
+BNB Chain,HyperEVM,15500.86,inbound
+BNB Chain,Ink,499.77,inbound
+BNB Chain,Monad,313384.73,inbound
+BNB Chain,Plasma,19563.68,inbound
+BNB Chain,Polygon PoS,1632.67,inbound
+BNB Chain,Stable,10841.71,inbound
+Celo,Arbitrum One,9307266.01,inbound
+Celo,Avalanche,312531.12,inbound
+Celo,BNB Chain,2185.48,inbound
+Celo,Ethereum,23013425.8,inbound
+Celo,HyperEVM,1979.41,inbound
+Celo,Ink,495.44,inbound
+Celo,Monad,386778.18,inbound
+Celo,Plasma,34413.46,inbound
+Celo,Polygon PoS,2161.41,inbound
+Celo,Solana,320642.44,inbound
+Celo,Stable,0,inbound
+Celo,TON,626.96,inbound
+Celo,Tron,4474050.16,inbound
+Conflux eSpace,Arbitrum One,10028991.09,inbound
+Conflux eSpace,Avalanche,13141.64,inbound
+Conflux eSpace,Berachain,128.12,inbound
+Conflux eSpace,BNB Chain,1714.16,inbound
+Conflux eSpace,Corn,0,inbound
+Conflux eSpace,Ethereum,15392405.08,inbound
+Conflux eSpace,Hedera,0,inbound
+Conflux eSpace,HyperEVM,31.84,inbound
+Conflux eSpace,Ink,2.2,inbound
+Conflux eSpace,Mantle,1,inbound
+Conflux eSpace,MegaETH,0,inbound
+Conflux eSpace,Monad,12263380.12,inbound
+Conflux eSpace,Morph,0,inbound
+Conflux eSpace,Optimism,5091.12,inbound
+Conflux eSpace,Plasma,93674.89,inbound
+Conflux eSpace,Polygon PoS,2054291.67,inbound
+Conflux eSpace,Rootstock,0,inbound
+Conflux eSpace,Sei,0,inbound
+Conflux eSpace,Stable,0,inbound
+Conflux eSpace,Tempo,0,inbound
+Conflux eSpace,Unichain,332.36,inbound
+Conflux eSpace,XLayer,6957,inbound
+Corn,Arbitrum One,1318475.63,inbound
+Corn,Berachain,166273.15,inbound
+Corn,Conflux eSpace,0,inbound
+Corn,Ethereum,10751018.2,inbound
+Corn,Flare,26045.09,inbound
+Corn,Hedera,0,inbound
+Corn,HyperEVM,68180.41,inbound
+Corn,Ink,9115.51,inbound
+Corn,Mantle,0,inbound
+Corn,MegaETH,0,inbound
+Corn,Monad,308.05,inbound
+Corn,Morph,0,inbound
+Corn,Optimism,156075.24,inbound
+Corn,Plasma,11696373.76,inbound
+Corn,Polygon PoS,12920.37,inbound
+Corn,Rootstock,1261.39,inbound
+Corn,Sei,18389.3,inbound
+Corn,Stable,1028.31,inbound
+Corn,Tempo,0,inbound
+Corn,Unichain,244224.4,inbound
+Corn,XLayer,355.91,inbound
+Ethereum,Arbitrum One,6973111978.02,inbound
+Ethereum,Avalanche,30099267.2,inbound
+Ethereum,Berachain,901320152.78,inbound
+Ethereum,BNB Chain,55809298.37,inbound
+Ethereum,Celo,16545923.96,inbound
+Ethereum,Conflux eSpace,13157781.18,inbound
+Ethereum,Corn,21483900.19,inbound
+Ethereum,Flare,679924107.04,inbound
+Ethereum,Hedera,114480.08,inbound
+Ethereum,HyperEVM,978292671.78,inbound
+Ethereum,Ink,1293641161.98,inbound
+Ethereum,Mantle,2029839438.15,inbound
+Ethereum,MegaETH,110593219.09,inbound
+Ethereum,Monad,600546259.59,inbound
+Ethereum,Morph,5139719.23,inbound
+Ethereum,Optimism,87832937.15,inbound
+Ethereum,Plasma,27242445991.75,inbound
+Ethereum,Polygon PoS,2332059429.05,inbound
+Ethereum,Rootstock,10848942.65,inbound
+Ethereum,Sei,96783833.09,inbound
+Ethereum,Solana,85021393.66,inbound
+Ethereum,Stable,1360700687.18,inbound
+Ethereum,Stellar,2593532.54,inbound
+Ethereum,Tempo,15715550.2,inbound
+Ethereum,TON,70664912.54,inbound
+Ethereum,Tron,2895462784.24,inbound
+Ethereum,Unichain,1543687779.07,inbound
+Ethereum,XLayer,369422611.03,inbound
+Flare,Arbitrum One,170108228.08,inbound
+Flare,Berachain,5141171.1,inbound
+Flare,Corn,81513.88,inbound
+Flare,Ethereum,621471209.79,inbound
+Flare,Hedera,3303.4,inbound
+Flare,HyperEVM,12091639.6,inbound
+Flare,Ink,597096.88,inbound
+Flare,Mantle,403476.18,inbound
+Flare,MegaETH,146454.08,inbound
+Flare,Monad,7060258.89,inbound
+Flare,Morph,0,inbound
+Flare,Optimism,5374613.63,inbound
+Flare,Plasma,33673214.43,inbound
+Flare,Polygon PoS,4448598.78,inbound
+Flare,Rootstock,190127.07,inbound
+Flare,Sei,3421594.11,inbound
+Flare,Stable,26977.81,inbound
+Flare,Stellar,157.61,inbound
+Flare,Tempo,1,inbound
+Flare,Unichain,11917355.35,inbound
+Flare,XLayer,64923.81,inbound
+Hedera,Arbitrum One,18727.56,inbound
+Hedera,Berachain,2,inbound
+Hedera,Ethereum,165557.59,inbound
+Hedera,Flare,663.76,inbound
+Hedera,HyperEVM,50243.01,inbound
+Hedera,Ink,159034.68,inbound
+Hedera,Monad,1075,inbound
+Hedera,Polygon PoS,3117.96,inbound
+Hedera,Tempo,0,inbound
+HyperEVM,Arbitrum One,207161121.96,inbound
+HyperEVM,Avalanche,3320840.2,inbound
+HyperEVM,Berachain,624702.73,inbound
+HyperEVM,BNB Chain,20342.69,inbound
+HyperEVM,Celo,3856.28,inbound
+HyperEVM,Conflux eSpace,5000,inbound
+HyperEVM,Corn,5334.71,inbound
+HyperEVM,Ethereum,1263694599.48,inbound
+HyperEVM,Flare,1629764.03,inbound
+HyperEVM,Hedera,36375.51,inbound
+HyperEVM,Ink,4955521.58,inbound
+HyperEVM,Mantle,114246.47,inbound
+HyperEVM,MegaETH,683160.76,inbound
+HyperEVM,Monad,760713.28,inbound
+HyperEVM,Morph,0,inbound
+HyperEVM,Optimism,3485443.2,inbound
+HyperEVM,Plasma,112429427.21,inbound
+HyperEVM,Polygon PoS,2179115.25,inbound
+HyperEVM,Rootstock,4337.24,inbound
+HyperEVM,Sei,595691.42,inbound
+HyperEVM,Solana,1724431.97,inbound
+HyperEVM,Stable,405330.06,inbound
+HyperEVM,Stellar,13.33,inbound
+HyperEVM,Tempo,18055.26,inbound
+HyperEVM,TON,103046.58,inbound
+HyperEVM,Unichain,4525478.58,inbound
+HyperEVM,XLayer,635976.08,inbound
+Ink,Arbitrum One,142243987.57,inbound
+Ink,Avalanche,11247.11,inbound
+Ink,Berachain,3674213.37,inbound
+Ink,BNB Chain,655.97,inbound
+Ink,Celo,839.34,inbound
+Ink,Conflux eSpace,25099.03,inbound
+Ink,Corn,12704.52,inbound
+Ink,Ethereum,1168928157.12,inbound
+Ink,Flare,1200996.67,inbound
+Ink,Hedera,0,inbound
+Ink,HyperEVM,16270765.68,inbound
+Ink,Mantle,8969649.97,inbound
+Ink,MegaETH,1088184.44,inbound
+Ink,Monad,4087317.07,inbound
+Ink,Morph,25.04,inbound
+Ink,Optimism,19895372.36,inbound
+Ink,Plasma,247157430.7,inbound
+Ink,Polygon PoS,31979055.65,inbound
+Ink,Rootstock,84772.96,inbound
+Ink,Sei,828340.17,inbound
+Ink,Solana,1637.79,inbound
+Ink,Stable,4353157.36,inbound
+Ink,Stellar,2.2,inbound
+Ink,Tempo,213401.93,inbound
+Ink,TON,2.05,inbound
+Ink,Unichain,22078945.14,inbound
+Ink,XLayer,1938938.12,inbound
+Mantle,Arbitrum One,5337887.76,inbound
+Mantle,Berachain,60130.07,inbound
+Mantle,Conflux eSpace,1,inbound
+Mantle,Corn,0,inbound
+Mantle,Ethereum,1541053465.2,inbound
+Mantle,Flare,542112.48,inbound
+Mantle,Hedera,0,inbound
+Mantle,HyperEVM,151442.94,inbound
+Mantle,Ink,3860934.37,inbound
+Mantle,MegaETH,221835.7,inbound
+Mantle,Monad,3831792.37,inbound
+Mantle,Morph,0,inbound
+Mantle,Optimism,217439.55,inbound
+Mantle,Plasma,267180137.54,inbound
+Mantle,Polygon PoS,766164.87,inbound
+Mantle,Rootstock,33095.03,inbound
+Mantle,Sei,16008.95,inbound
+Mantle,Stable,95352.73,inbound
+Mantle,Tempo,7933,inbound
+Mantle,Unichain,105873.42,inbound
+Mantle,XLayer,20961.68,inbound
+MegaETH,Arbitrum One,15008121.87,inbound
+MegaETH,Berachain,145986.88,inbound
+MegaETH,Corn,575.27,inbound
+MegaETH,Ethereum,115801559.34,inbound
+MegaETH,Flare,817016.26,inbound
+MegaETH,Hedera,1000.75,inbound
+MegaETH,HyperEVM,870030.74,inbound
+MegaETH,Ink,483647.07,inbound
+MegaETH,Mantle,312975.44,inbound
+MegaETH,Monad,330790.47,inbound
+MegaETH,Morph,0.45,inbound
+MegaETH,Optimism,143115.73,inbound
+MegaETH,Plasma,6116069.33,inbound
+MegaETH,Polygon PoS,1732170.68,inbound
+MegaETH,Rootstock,3326.61,inbound
+MegaETH,Sei,46403.26,inbound
+MegaETH,Stable,305949.97,inbound
+MegaETH,Stellar,0,inbound
+MegaETH,Tempo,8545.55,inbound
+MegaETH,Unichain,52697.55,inbound
+MegaETH,XLayer,124797.3,inbound
+Monad,Arbitrum One,27854213.12,inbound
+Monad,Avalanche,6449059.44,inbound
+Monad,Berachain,25146251.82,inbound
+Monad,BNB Chain,125050.3,inbound
+Monad,Celo,27729.88,inbound
+Monad,Conflux eSpace,12213268.43,inbound
+Monad,Ethereum,520431140.63,inbound
+Monad,Flare,8307850.92,inbound
+Monad,Hedera,528.43,inbound
+Monad,HyperEVM,2491492.75,inbound
+Monad,Ink,3406472.63,inbound
+Monad,Mantle,35268739.54,inbound
+Monad,MegaETH,390489.36,inbound
+Monad,Morph,0,inbound
+Monad,Optimism,982201.9,inbound
+Monad,Plasma,232840228.31,inbound
+Monad,Polygon PoS,6848796.24,inbound
+Monad,Rootstock,84531.86,inbound
+Monad,Sei,381375.09,inbound
+Monad,Stable,982923.49,inbound
+Monad,Stellar,0,inbound
+Monad,Tempo,0.86,inbound
+Monad,Unichain,135023.58,inbound
+Monad,XLayer,2193519.49,inbound
+Morph,Arbitrum One,106923.79,inbound
+Morph,Berachain,544.71,inbound
+Morph,Conflux eSpace,0,inbound
+Morph,Corn,0,inbound
+Morph,Ethereum,70518.91,inbound
+Morph,Flare,3987.9,inbound
+Morph,Hedera,0,inbound
+Morph,HyperEVM,48707.36,inbound
+Morph,Ink,375.04,inbound
+Morph,Mantle,0,inbound
+Morph,MegaETH,1.01,inbound
+Morph,Monad,93478.56,inbound
+Morph,Optimism,421094.55,inbound
+Morph,Plasma,1293.88,inbound
+Morph,Polygon PoS,29965.85,inbound
+Morph,Rootstock,0,inbound
+Morph,Sei,0,inbound
+Morph,Stable,0,inbound
+Morph,Stellar,1.17,inbound
+Morph,Tempo,0,inbound
+Morph,Unichain,0,inbound
+Morph,XLayer,0,inbound
+Optimism,Arbitrum One,42387762.08,inbound
+Optimism,Berachain,3627967.3,inbound
+Optimism,Conflux eSpace,831.93,inbound
+Optimism,Corn,133036.67,inbound
+Optimism,Ethereum,93891144.27,inbound
+Optimism,Flare,4325566.86,inbound
+Optimism,Hedera,700.48,inbound
+Optimism,HyperEVM,7388382.63,inbound
+Optimism,Ink,18471910.16,inbound
+Optimism,Mantle,232715.02,inbound
+Optimism,MegaETH,173303.08,inbound
+Optimism,Monad,1096111.19,inbound
+Optimism,Morph,265539.07,inbound
+Optimism,Plasma,9150611.46,inbound
+Optimism,Polygon PoS,4386258.12,inbound
+Optimism,Rootstock,569047.98,inbound
+Optimism,Sei,1746380.87,inbound
+Optimism,Stable,20012.02,inbound
+Optimism,Stellar,1,inbound
+Optimism,Tempo,252.06,inbound
+Optimism,Unichain,62657580.03,inbound
+Optimism,XLayer,741977.39,inbound
+Plasma,Arbitrum One,645373670.84,inbound
+Plasma,Avalanche,1256772.33,inbound
+Plasma,Berachain,2843704.82,inbound
+Plasma,BNB Chain,1,inbound
+Plasma,Celo,55057.85,inbound
+Plasma,Conflux eSpace,1929539.08,inbound
+Plasma,Corn,254.5,inbound
+Plasma,Ethereum,28451701928.41,inbound
+Plasma,Flare,11556135.81,inbound
+Plasma,Hedera,6000.89,inbound
+Plasma,HyperEVM,95107842.39,inbound
+Plasma,Ink,63052872.35,inbound
+Plasma,Mantle,175259033.65,inbound
+Plasma,MegaETH,4279501.17,inbound
+Plasma,Monad,69008461.64,inbound
+Plasma,Morph,1304.96,inbound
+Plasma,Optimism,5275448.78,inbound
+Plasma,Polygon PoS,21754044.86,inbound
+Plasma,Rootstock,162787.13,inbound
+Plasma,Sei,9438208.31,inbound
+Plasma,Solana,140848.58,inbound
+Plasma,Stable,10141270.74,inbound
+Plasma,Stellar,0,inbound
+Plasma,Tempo,7248033.42,inbound
+Plasma,Unichain,7898044.87,inbound
+Plasma,XLayer,1578103.92,inbound
+Polygon PoS,Arbitrum One,194896022.25,inbound
+Polygon PoS,Avalanche,3402.04,inbound
+Polygon PoS,Berachain,6773197.91,inbound
+Polygon PoS,BNB Chain,386.56,inbound
+Polygon PoS,Celo,2288.8,inbound
+Polygon PoS,Conflux eSpace,21203564.84,inbound
+Polygon PoS,Corn,2971.33,inbound
+Polygon PoS,Ethereum,2135345190.45,inbound
+Polygon PoS,Flare,22691202.57,inbound
+Polygon PoS,Hedera,61020.81,inbound
+Polygon PoS,HyperEVM,75484001.5,inbound
+Polygon PoS,Ink,41652095.04,inbound
+Polygon PoS,Mantle,4221776.2,inbound
+Polygon PoS,MegaETH,8762721.88,inbound
+Polygon PoS,Monad,121312134.33,inbound
+Polygon PoS,Morph,44506.99,inbound
+Polygon PoS,Optimism,16264501.72,inbound
+Polygon PoS,Plasma,446819432.58,inbound
+Polygon PoS,Rootstock,74755.04,inbound
+Polygon PoS,Sei,19544723.8,inbound
+Polygon PoS,Solana,5394.35,inbound
+Polygon PoS,Stable,12718738.44,inbound
+Polygon PoS,Stellar,1182.73,inbound
+Polygon PoS,Tempo,36157701.33,inbound
+Polygon PoS,Unichain,9856762.62,inbound
+Polygon PoS,XLayer,36628740.87,inbound
+Rootstock,Arbitrum One,8834076.23,inbound
+Rootstock,Berachain,1817.48,inbound
+Rootstock,Conflux eSpace,57.27,inbound
+Rootstock,Corn,128.81,inbound
+Rootstock,Ethereum,6593216.16,inbound
+Rootstock,Flare,82972.92,inbound
+Rootstock,Hedera,0,inbound
+Rootstock,HyperEVM,17747.3,inbound
+Rootstock,Ink,4896.12,inbound
+Rootstock,Mantle,178533.82,inbound
+Rootstock,MegaETH,25000,inbound
+Rootstock,Monad,35206.56,inbound
+Rootstock,Morph,0,inbound
+Rootstock,Optimism,757409.51,inbound
+Rootstock,Plasma,3515114.12,inbound
+Rootstock,Polygon PoS,497524.5,inbound
+Rootstock,Sei,12334.85,inbound
+Rootstock,Stable,107,inbound
+Rootstock,Tempo,0,inbound
+Rootstock,Unichain,158227.62,inbound
+Rootstock,XLayer,3.1,inbound
+Sei,Arbitrum One,195596201.86,inbound
+Sei,Berachain,7849155.51,inbound
+Sei,Conflux eSpace,0,inbound
+Sei,Corn,139880.73,inbound
+Sei,Ethereum,112118609.69,inbound
+Sei,Flare,4431580.19,inbound
+Sei,Hedera,0,inbound
+Sei,HyperEVM,2528172.21,inbound
+Sei,Ink,529600.74,inbound
+Sei,Mantle,10078.48,inbound
+Sei,MegaETH,3649.37,inbound
+Sei,Monad,1312243.66,inbound
+Sei,Morph,12.61,inbound
+Sei,Optimism,2292289.83,inbound
+Sei,Plasma,39010036.83,inbound
+Sei,Polygon PoS,15459320.6,inbound
+Sei,Rootstock,275562.46,inbound
+Sei,Stable,469.36,inbound
+Sei,Tempo,100264.33,inbound
+Sei,Unichain,1453225.87,inbound
+Sei,XLayer,913526.08,inbound
+Solana,Arbitrum One,11970966.72,inbound
+Solana,Avalanche,41924325.13,inbound
+Solana,Celo,603600.38,inbound
+Solana,Ethereum,34422048.86,inbound
+Solana,HyperEVM,2197404.77,inbound
+Solana,Ink,202.81,inbound
+Solana,Plasma,79688.96,inbound
+Solana,Polygon PoS,6071.82,inbound
+Solana,Stable,0,inbound
+Solana,TON,795364.44,inbound
+Solana,Tron,67453529.88,inbound
+Stable,Arbitrum One,87682023.34,inbound
+Stable,Avalanche,1397.49,inbound
+Stable,Berachain,181135.18,inbound
+Stable,BNB Chain,3545.74,inbound
+Stable,Celo,852.58,inbound
+Stable,Conflux eSpace,5000,inbound
+Stable,Corn,107,inbound
+Stable,Ethereum,1174120711.35,inbound
+Stable,Flare,453800.51,inbound
+Stable,Hedera,0,inbound
+Stable,HyperEVM,7014972.42,inbound
+Stable,Ink,7226559.19,inbound
+Stable,Mantle,121412.56,inbound
+Stable,MegaETH,464698.44,inbound
+Stable,Monad,6492209.08,inbound
+Stable,Morph,3,inbound
+Stable,Optimism,469884.64,inbound
+Stable,Plasma,82879571.87,inbound
+Stable,Polygon PoS,7985827.52,inbound
+Stable,Rootstock,90001.2,inbound
+Stable,Sei,264569.11,inbound
+Stable,Solana,0,inbound
+Stable,Stellar,0.06,inbound
+Stable,Tempo,30003.2,inbound
+Stable,Unichain,21098.89,inbound
+Stable,XLayer,226886.71,inbound
+Stellar,Arbitrum One,11549.99,inbound
+Stellar,Berachain,1,inbound
+Stellar,Ethereum,112.4,inbound
+Stellar,Flare,0.08,inbound
+Stellar,HyperEVM,0.12,inbound
+Stellar,Ink,0.13,inbound
+Stellar,MegaETH,0.12,inbound
+Stellar,Monad,0.1,inbound
+Stellar,Optimism,1,inbound
+Stellar,Plasma,0.33,inbound
+Stellar,Polygon PoS,37.79,inbound
+Stellar,Sei,0,inbound
+Stellar,Tempo,0,inbound
+Tempo,Arbitrum One,15419469.29,inbound
+Tempo,Ethereum,1388902.3,inbound
+Tempo,HyperEVM,467.01,inbound
+Tempo,Ink,515219.55,inbound
+Tempo,Mantle,1,inbound
+Tempo,MegaETH,3993.86,inbound
+Tempo,Monad,3000.76,inbound
+Tempo,Optimism,3085.53,inbound
+Tempo,Plasma,1335566.3,inbound
+Tempo,Polygon PoS,40218860.55,inbound
+Tempo,Stable,2416.62,inbound
+Tempo,Stellar,0,inbound
+Tempo,Unichain,1,inbound
+TON,Arbitrum One,2846791.06,inbound
+TON,Avalanche,146804.44,inbound
+TON,Celo,6001.35,inbound
+TON,Ethereum,69989232.42,inbound
+TON,HyperEVM,180421.12,inbound
+TON,Ink,0,inbound
+TON,Polygon PoS,10109.48,inbound
+TON,Solana,1268861.24,inbound
+TON,Tron,63205418.83,inbound
+Tron,Arbitrum One,556256407.31,inbound
+Tron,Celo,7573.81,inbound
+Tron,Ethereum,2408779623.01,inbound
+Tron,Solana,97452954.04,inbound
+Tron,TON,104499715,inbound
+Unichain,Arbitrum One,666103464.57,inbound
+Unichain,Berachain,61121876.48,inbound
+Unichain,Conflux eSpace,330.36,inbound
+Unichain,Corn,498918.28,inbound
+Unichain,Ethereum,1552017770.09,inbound
+Unichain,Flare,26591338.29,inbound
+Unichain,Hedera,10,inbound
+Unichain,HyperEVM,9203542.2,inbound
+Unichain,Ink,21679741.12,inbound
+Unichain,Mantle,8105.74,inbound
+Unichain,MegaETH,108212.75,inbound
+Unichain,Monad,94773.46,inbound
+Unichain,Morph,211.27,inbound
+Unichain,Optimism,53617028.6,inbound
+Unichain,Plasma,16615591.49,inbound
+Unichain,Polygon PoS,12227659.11,inbound
+Unichain,Rootstock,575870.95,inbound
+Unichain,Sei,1740027.81,inbound
+Unichain,Stable,19179.71,inbound
+Unichain,Tempo,877.77,inbound
+Unichain,XLayer,1330836.46,inbound
+XLayer,Arbitrum One,11493037.35,inbound
+XLayer,Berachain,2169.94,inbound
+XLayer,Conflux eSpace,10746.67,inbound
+XLayer,Corn,2323.08,inbound
+XLayer,Ethereum,410898085.61,inbound
+XLayer,Flare,30926.54,inbound
+XLayer,Hedera,0,inbound
+XLayer,HyperEVM,48128.02,inbound
+XLayer,Ink,172885.77,inbound
+XLayer,Mantle,21697.17,inbound
+XLayer,MegaETH,21235.02,inbound
+XLayer,Monad,63588.26,inbound
+XLayer,Morph,0,inbound
+XLayer,Optimism,192035.4,inbound
+XLayer,Plasma,2374899.91,inbound
+XLayer,Polygon PoS,4234733.99,inbound
+XLayer,Rootstock,501.61,inbound
+XLayer,Sei,280.74,inbound
+XLayer,Stable,6920.63,inbound
+XLayer,Tempo,0.02,inbound
+XLayer,Unichain,126466.27,inbound

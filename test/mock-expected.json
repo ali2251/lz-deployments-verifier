@@ -1,0 +1,25 @@
+{
+  "deployment": "canary-sponsored-mock",
+  "signers": ["0x1111111111111111111111111111111111111111"],
+  "quorum": 1,
+  "worker": {
+    "defaultMultiplierBps": 12000,
+    "allowlistSize": 0,
+    "paused": false,
+    "requirePriceFeedSet": true,
+    "requireFeeLibSet": true
+  },
+  "dstConfig": {
+    "default": { "floorMarginUSD": "0", "multiplierBps": null, "minGas": 1 },
+    "overrides": {}
+  },
+  "quote": {
+    "enabled": true,
+    "sender": "0x000000000000000000000000000000000000dEaD",
+    "confirmations": 1,
+    "options": "0x",
+    "maxUsd": null,
+    "requireFloorNotBinding": true
+  },
+  "usdDenominator": "100000000000000000000"
+}

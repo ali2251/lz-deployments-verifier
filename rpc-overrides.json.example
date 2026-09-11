@@ -1,0 +1,17 @@
+{
+  "$comment": [
+    "The shipped rpc-overrides.json already covers all 47 EVM chains via Alchemy.",
+    "This example just documents the format.",
+    "",
+    "A value is a URL or a list of URLs tried in order. Two substitutions apply:",
+    "  ${ENV_VAR}  reads from the environment, so a key never has to be written to disk",
+    "  @auto       expands to the endpoints resolved automatically (metadata + chainlist)",
+    "",
+    "Without @auto, an override REPLACES the automatic layers entirely. With it, you get",
+    "'try mine first, fall back to public' — which is what you almost always want."
+  ],
+
+  "ethereum": ["https://eth-mainnet.g.alchemy.com/v2/alch_${ALCHEMY_KEY}", "@auto"],
+  "arbitrum": "https://arb-mainnet.g.alchemy.com/v2/alch_YOUR_KEY_HERE",
+  "hedera": ["https://mainnet.hashio.io/api", "@auto"]
+}

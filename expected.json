@@ -1,0 +1,46 @@
+{
+  "$comment": [
+    "Expected on-chain state for the canary-sponsored DVN deployment.",
+    "Everything the script asserts lives here — the code contains no magic numbers.",
+    "",
+    "REQUIRED BEFORE FIRST RUN: replace the PASTE_SIGNER placeholder(s) below with the",
+    "real Canary DVN signer address(es) and set `quorum` to the expected quorum.",
+    "",
+    "How the signer check proves completeness without scanning events:",
+    "  signerSize == signers.length  AND  signers(a) == true for every a in signers",
+    "  => the on-chain active signer set is exactly this set, nothing more, nothing less."
+  ],
+
+  "deployment": "canary-sponsored",
+
+  "signers": ["0x6d695bDb416274d37fb877f5f46A3F20c9343D80"],
+  "quorum": 1,
+
+  "worker": {
+    "defaultMultiplierBps": 12000,
+    "allowlistSize": 0,
+    "paused": false,
+    "requirePriceFeedSet": true,
+    "requireFeeLibSet": true
+  },
+
+  "dstConfig": {
+    "default": {
+      "floorMarginUSD": "0",
+      "multiplierBps": null,
+      "minGas": 1
+    },
+    "overrides": {}
+  },
+
+  "quote": {
+    "enabled": true,
+    "sender": "0x000000000000000000000000000000000000dEaD",
+    "confirmations": 1,
+    "options": "0x",
+    "maxUsd": null,
+    "requireFloorNotBinding": true
+  },
+
+  "usdDenominator": "100000000000000000000"
+}

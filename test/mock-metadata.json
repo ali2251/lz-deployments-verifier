@@ -1,0 +1,157 @@
+{
+  "ethereum": {
+    "chainDetails": {
+      "chainType": "evm",
+      "chainKey": "ethereum",
+      "nativeChainId": 1,
+      "name": "Ethereum",
+      "nativeCurrency": {
+        "symbol": "ETH",
+        "decimals": 18
+      }
+    },
+    "deployments": [
+      {
+        "eid": "30101",
+        "chainKey": "ethereum",
+        "stage": "mainnet",
+        "version": 2
+      }
+    ],
+    "blockExplorers": [
+      {
+        "url": "https://etherscan.io"
+      }
+    ],
+    "rpcs": [
+      {
+        "url": "http://127.0.0.1:8599/1"
+      }
+    ]
+  },
+  "arbitrum": {
+    "chainDetails": {
+      "chainType": "evm",
+      "chainKey": "arbitrum",
+      "nativeChainId": 42161,
+      "name": "Arbitrum",
+      "nativeCurrency": {
+        "symbol": "ETH",
+        "decimals": 18
+      }
+    },
+    "deployments": [
+      {
+        "eid": "30110",
+        "chainKey": "arbitrum",
+        "stage": "mainnet",
+        "version": 2
+      }
+    ],
+    "blockExplorers": [
+      {
+        "url": "https://arbiscan.io"
+      }
+    ],
+    "rpcs": [
+      {
+        "url": "http://127.0.0.1:8599/42161"
+      }
+    ]
+  },
+  "polygon": {
+    "chainDetails": {
+      "chainType": "evm",
+      "chainKey": "polygon",
+      "nativeChainId": 137,
+      "name": "Polygon",
+      "nativeCurrency": {
+        "symbol": "POL",
+        "decimals": 18
+      }
+    },
+    "deployments": [
+      {
+        "eid": "30109",
+        "chainKey": "polygon",
+        "stage": "mainnet",
+        "version": 2
+      }
+    ],
+    "rpcs": [
+      {
+        "url": "http://127.0.0.1:8599/137"
+      }
+    ]
+  },
+  "solana": {
+    "chainDetails": {
+      "chainType": "solana",
+      "chainKey": "solana",
+      "name": "Solana",
+      "nativeCurrency": {
+        "symbol": "SOL",
+        "decimals": 9
+      }
+    },
+    "deployments": [
+      {
+        "eid": "30168",
+        "chainKey": "solana",
+        "stage": "mainnet",
+        "version": 2
+      }
+    ],
+    "rpcs": []
+  },
+  "metis": {
+    "chainDetails": {
+      "chainType": "evm",
+      "chainKey": "metis",
+      "nativeChainId": 1088,
+      "name": "Metis",
+      "nativeCurrency": {
+        "symbol": "METIS",
+        "decimals": 18
+      }
+    },
+    "deployments": [
+      {
+        "eid": "30151",
+        "chainKey": "metis",
+        "stage": "mainnet",
+        "version": 2
+      }
+    ],
+    "rpcs": [
+      {
+        "url": "http://127.0.0.1:8599/1088"
+      }
+    ]
+  },
+  "fuse": {
+    "chainDetails": {
+      "chainType": "evm",
+      "chainKey": "fuse",
+      "nativeChainId": 122,
+      "name": "Fuse",
+      "nativeCurrency": {
+        "symbol": "FUSE",
+        "decimals": 18
+      }
+    },
+    "deployments": [
+      {
+        "eid": "30138",
+        "chainKey": "fuse",
+        "stage": "mainnet",
+        "version": 2
+      }
+    ],
+    "rpcs": [
+      {
+        "url": "http://127.0.0.1:8599/122"
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "canary-dvn-verify",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Verifies on-chain config of the Canary DVN deployment across all LayerZero V2 chains: signer set, quorum, worker config and per-destination fee config.",
+  "scripts": {
+    "verify": "tsx src/index.ts",
+    "typecheck": "tsc --noEmit",
+    "mock:serve": "tsx test/mock-rpc.ts",
+    "mock:verify": "tsx src/index.ts --no-chainlist --rpc-overrides test/no-overrides.json --metadata-file test/mock-metadata.json --deployment test/mock-deployment.json --expected test/mock-expected.json --json none --md none --rpc-timeout 5000"
+  },
+  "dependencies": {
+    "viem": "^2.21.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
