@@ -2,6 +2,7 @@
  * Inventory coverage: which chains an application requires, and whether the local
  * deployment JSON lists a DVN address for each. Nothing here is checked on-chain.
  */
+import { chainKey } from './chain-names.js';
 import type { Deployment } from './config.js';
 
 export type Tier = 'sponsored' | 'subsidized';
@@ -27,27 +28,6 @@ export interface CoverageRow {
   status: 'LISTED' | 'MISSING';
   /** informational only: an entry in the other tier does not satisfy this one */
   otherTierAddress: string | null;
-}
-
-// Explicit aliases for application labels versus LayerZero deployment keys.
-// Unknown names retain their own key and are reported missing, never dropped.
-const ALIASES: Record<string, string> = {
-  'arbitrum one': 'arbitrum',
-  'bnb chain': 'bsc',
-  bnb: 'bsc',
-  berachain: 'bera',
-  'conflux espace': 'conflux',
-  hyperevm: 'hyperliquid',
-  'polygon pos': 'polygon',
-  plume: 'plumephoenix',
-  linea: 'zkconsensys',
-  'xrp ledger': 'xrpl',
-};
-
-/** The deployment key for an application's chain label, e.g. "BNB Chain" -> "bsc". */
-export function chainKey(name: string): string {
-  const normalized = name.trim().toLowerCase().replace(/\s+/g, ' ');
-  return ALIASES[normalized] ?? normalized;
 }
 
 /** deployment key -> address, leaving out blank and all-zero addresses */

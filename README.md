@@ -498,6 +498,7 @@ an initial FAIL manifest so an unfinished run is not represented as a fresh pass
 | `src/report/` | Console output, `report.md`/`report.json`, and the numbers they share. |
 | `src/signers.ts` | The pinned signer identities. |
 | `src/coverage.ts`, `src/coverage-cli.ts`, `src/usdt0-scope.ts` | Inventory coverage and the USDT0 scope. |
+| `src/chain-names.ts` | Application chain labels → deployment keys (`BNB Chain` → `bsc`). |
 | `src/non-evm/index.ts` | Non-EVM entry point: prepares a run directory, runs collectors, judges, publishes. |
 | `src/non-evm/collect-*.ts` | One collector per chain. They record reads and never decide pass/fail. |
 | `src/non-evm/policy.ts` | The non-EVM pass/fail policy, applied to the collectors' snapshots. |

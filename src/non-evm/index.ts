@@ -11,14 +11,13 @@ import { spawnSync } from 'node:child_process';
 import { createHash, randomUUID } from 'node:crypto';
 import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { join, resolve } from 'node:path';
-import { chainKey } from '../coverage.js';
 import { loadMetadata, resolveChain, type Metadata } from '../metadata.js';
 import { fromRoot } from '../paths.js';
 import { assertHardcodedSigner, resolveSolanaSignerPolicy } from '../signers.js';
 import type { Destination } from '../types.js';
 import { USDT0_EXCLUSIONS, usdt0VerificationChains } from '../usdt0-scope.js';
 import { completedSnapshot, SOURCES, validateChain, validateExpectations, validateSigners, type Source } from './policy.js';
-import { toJson } from './run.js';
+import { stringifyJson } from './run.js';
 
 const REPORTS_DIR = fromRoot('reports/usdt0-non-evm');
 const LATEST_FILE = join(REPORTS_DIR, 'latest.json');
@@ -61,7 +60,7 @@ interface Report {
 }
 
 const errorMessage = (err: unknown): string => (err instanceof Error ? err.message : String(err));
-const writeJson = (path: string, value: unknown): void => writeFileSync(path, toJson(value) + '\n');
+const writeJson = (path: string, value: unknown): void => writeFileSync(path, stringifyJson(value) + '\n');
 
 // ---------------------------------------------------------------------------
 // arguments
@@ -110,7 +109,7 @@ function loadExpectedPolicy(expectedFile: string, sources: Source[]): any {
 function resolveDestinations(metadata: Metadata, sources: Source[]) {
   const products = JSON.parse(readFileSync(fromRoot('applications/requirements.json'), 'utf8')).usdt0.products;
   const chains = usdt0VerificationChains(products).map((name) => {
-    const chain = resolveChain(metadata, chainKey(name));
+    const chain = resolveChain(metadata, name);
     if (!chain) throw new Error(`Required destination unresolved: ${name}`);
     return chain;
   });

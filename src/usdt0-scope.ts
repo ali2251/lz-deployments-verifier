@@ -1,5 +1,5 @@
 /** The USDT0 verification scope, shared by the EVM and non-EVM verifiers. */
-import { chainKey } from './coverage.js';
+import { chainKey } from './chain-names.js';
 
 /**
  * Chains the application lists but that are deliberately not verified, with the reason.

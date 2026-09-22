@@ -12,7 +12,7 @@ import { fromRoot } from '../paths.js';
 import type { Destination } from '../types.js';
 import type { ChainSnapshot, Source } from './policy.js';
 
-export const toJson = (value: unknown): string =>
+export const stringifyJson = (value: unknown): string =>
   JSON.stringify(value, (_key, item) => (typeof item === 'bigint' ? item.toString() : item), 2);
 
 /** The Solana/Stellar SDKs live in their own install (runtime/non-evm), not in the root package. */
@@ -44,7 +44,7 @@ export function openRun(): Run {
   return {
     runId,
     input,
-    save: (name, value) => writeFileSync(join(dir, `${name}.json`), toJson(value)),
+    save: (name, value) => writeFileSync(join(dir, `${name}.json`), stringifyJson(value)),
     destinations: (source) => (input('scope').chains as Destination[]).filter((chain) => chain.name !== source),
     snapshot: (address) => ({ runId, checkedAt: new Date().toISOString(), address }),
   };

@@ -2,7 +2,8 @@ import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { test } from 'node:test';
 import { loadDeployment } from '../src/config.js';
-import { chainKey, coverage, type ApplicationRequirements } from '../src/coverage.js';
+import { chainKey } from '../src/chain-names.js';
+import { coverage, type ApplicationRequirements } from '../src/coverage.js';
 import { fromRoot, readJson, runCli } from './helpers.js';
 
 const requirements: Record<string, ApplicationRequirements> = readJson('applications/requirements.json');

@@ -170,7 +170,10 @@ function describeCoreReadFailure(err: unknown): string {
     : `core reads failed — is this a LayerZero V2 DVN? ${detail}`;
 }
 
-/** Reads the worker state. `paused` and `vid` may fail individually; those failures come back as findings. */
+/**
+ * Reads the worker state. The core reads must all succeed (this throws otherwise);
+ * `paused` and `vid` may fail individually and come back as ERROR findings.
+ */
 async function readWorker(session: Session): Promise<{ worker: WorkerState; findings: Finding[] }> {
   const { client, call, dvn } = session;
   const core = await readCoreState(session);
@@ -190,7 +193,8 @@ async function readWorker(session: Session): Promise<{ worker: WorkerState; find
     findings.push(errorFinding('worker.vid', err));
   }
 
-  return { worker: { ...core, paused, vid, nativePriceUSD: null }, findings };
+  const nativePriceUSD = await readNativePrice(session, core.priceFeed);
+  return { worker: { ...core, paused, vid, nativePriceUSD }, findings };
 }
 
 function toWorkerReport(worker: WorkerState): ChainResult['worker'] {
@@ -424,9 +428,8 @@ export async function verifyChain(source: SourceChain, plan: VerifyPlan, rpcOpti
   } catch (err) {
     return stop({ check: 'worker.read', severity: 'ERROR', detail: describeCoreReadFailure(err) });
   }
-  const signerStatuses = await readSignerStatuses(session, expected.signers);
-  worker.nativePriceUSD = await readNativePrice(session, worker.priceFeed);
   result.worker = toWorkerReport(worker);
+  const signerStatuses = await readSignerStatuses(session, expected.signers);
 
   result.findings.push(...checkMultisig(expected, worker, signerStatuses));
   result.findings.push(...checkWorker(expected, worker));
