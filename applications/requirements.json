@@ -1,0 +1,103 @@
+{
+  "usdt0": {
+    "tier": "sponsored",
+    "source": "usdt0.csv: unique Source and Target values, including zero-volume rows; snapshot 2026-09-14.",
+    "products": {
+      "usdt0": [
+        "Arbitrum One",
+        "Avalanche",
+        "BNB Chain",
+        "Berachain",
+        "Celo",
+        "Conflux eSpace",
+        "Corn",
+        "Ethereum",
+        "Flare",
+        "Hedera",
+        "HyperEVM",
+        "Ink",
+        "Mantle",
+        "MegaETH",
+        "Monad",
+        "Morph",
+        "Optimism",
+        "Plasma",
+        "Polygon PoS",
+        "Rootstock",
+        "Sei",
+        "Solana",
+        "Stable",
+        "Stellar",
+        "TON",
+        "Tempo",
+        "Tron",
+        "Unichain",
+        "XLayer"
+      ]
+    }
+  },
+  "ethena": {
+    "tier": "subsidized",
+    "source": "https://docs.ethena.fi/technical-design/key-addresses — snapshot 2026-09-14; Ethereum core, Token Contracts on Other Chains list, plus Tempo from the token table. This is a documentation baseline, not an exhaustive live discovery.",
+    "products": {
+      "ethena": [
+        "Ethereum",
+        "TON",
+        "Aptos",
+        "Berachain",
+        "Solana",
+        "Mantle",
+        "Blast",
+        "Arbitrum",
+        "Optimism",
+        "Base",
+        "Zircuit",
+        "ZKSync",
+        "BNB Chain",
+        "Linea",
+        "Manta",
+        "Scroll",
+        "Fraxtal",
+        "Mode",
+        "XLayer",
+        "Metis",
+        "Kava",
+        "Morph",
+        "Swell",
+        "Tempo"
+      ]
+    }
+  },
+  "ondo": {
+    "tier": "either",
+    "source": "User-supplied requirements, 2026-09-14. Retains Plume and Mantra as requested even though the USDY product page currently omits them. References: https://ondo.finance/usdy https://ondo.finance/ousg https://ondo.finance/ondo-stocks",
+    "products": {
+      "usdy": [
+        "Ethereum",
+        "Solana",
+        "BNB Chain",
+        "Mantle",
+        "Sui",
+        "Arbitrum",
+        "Stellar",
+        "Sei",
+        "Tempo",
+        "Aptos",
+        "Plume",
+        "Noble",
+        "Mantra"
+      ],
+      "ousg": [
+        "Ethereum",
+        "Polygon",
+        "Solana",
+        "XRP Ledger"
+      ],
+      "stocks": [
+        "Ethereum",
+        "BNB Chain",
+        "Solana"
+      ]
+    }
+  }
+}

@@ -13,6 +13,7 @@
       "aptos": "0xed2fa58a3da0d3f247ba52910d39cf318776cd6ffee3a13234a4441166021370",
       "arbitrum": "0xbacfe8d53f8728b8980b9f99e897d8b29334c922",
       "iota": "0x4d7933c0d6355b263b8396b18fe64e2609cb7e99",
+      "iotal1": "0x2850043d3d6e22f0ab05d629bca93df8d7c3a2cd27865c47a58955351129151d",
       "islander": "0xc033f93157a5a2a0ea1c4fddb673315737c87ea5",
       "mantle": "0xcc2697009ac9c3bedfa5438cd92c033e4f310f82",
       "celo": "0xb6877ca83d73d90e94e6359948c8bd08c4645eb2",
@@ -57,7 +58,8 @@
       "unichain": "0x06bd01bfa19ac2c1974cb7a36dde44ce1068a8c5",
       "solana": "FGfRUbiNjXJ5FaVzWj7gcnUJMYTiCLPmgTVeeozWooZB",
       "klaytn": "0x38f5e988234665d6307262ed6fa2057c7e7315e6",
-      "plumephoenix": "0xb941ec9e7fb7e0e991e59f1206f7965afcab1f99"
+      "plumephoenix": "0xb941ec9e7fb7e0e991e59f1206f7965afcab1f99",
+      "hyperliquid": "0x0e330b859441d6172e41591ad6a2448268840456"
     },
     "uris": ["https://layer0.canaryprotocol.com"]
   }

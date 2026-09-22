@@ -5,10 +5,21 @@
   "type": "module",
   "description": "Verifies on-chain config of the Canary DVN deployment across all LayerZero V2 chains: signer set, quorum, worker config and per-destination fee config.",
   "scripts": {
-    "verify": "tsx src/index.ts",
+    "verify": "node --import tsx src/index.ts --slow",
+    "coverage": "node --import tsx src/coverage-cli.ts",
     "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --test test/*.test.ts",
     "mock:serve": "tsx test/mock-rpc.ts",
-    "mock:verify": "tsx src/index.ts --no-chainlist --rpc-overrides test/no-overrides.json --metadata-file test/mock-metadata.json --deployment test/mock-deployment.json --expected test/mock-expected.json --json none --md none --rpc-timeout 5000"
+    "mock:verify": "tsx src/index.ts --no-chainlist --rpc-overrides test/no-overrides.json --metadata-file test/mock-metadata.json --deployment test/mock-deployment.json --expected test/mock-expected.json --json none --md none --rpc-timeout 5000",
+    "verify:subsidized": "tsx src/index.ts --deployment deployments/canary-subsidized.json --expected expected-subsidized.json --json report-subsidized.json --md report-subsidized.md",
+    "verify:usdt0": "node --import tsx src/index.ts --slow --app usdt0 --json report-usdt0.json --md report-usdt0.md",
+    "verify:non-evm:solana-stellar": "node --import tsx src/non-evm/index.ts --only solana-stellar",
+    "verify:non-evm:tron": "node --import tsx src/non-evm/index.ts --only tron",
+    "verify:non-evm:tron-signer": "node --import tsx src/non-evm/index.ts --only tron",
+    "verify:non-evm:report": "node --import tsx src/non-evm/index.ts --report",
+    "verify:usdt0:non-evm": "node --import tsx src/non-evm/index.ts",
+    "verify:non-evm": "npm run verify:usdt0:non-evm",
+    "verify:non-evm:solana": "node --import tsx src/non-evm/index.ts --only solana"
   },
   "dependencies": {
     "viem": "^2.21.0"

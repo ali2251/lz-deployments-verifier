@@ -1,14 +1,12 @@
 /**
- * ABI fragments for the LayerZero V2 DVN stack.
+ * ABI fragments for the LayerZero V2 DVN stack — only what this tool reads.
  *
  * Sourced from layerzero-v2/packages/layerzero-v2/evm/messagelib/contracts/uln/dvn/
- *   DVN.sol        (dstConfig, getFee, assignJob)
+ *   DVN.sol        (vid, dstConfig, getFee)
  *   DVNFeeLib.sol  (getFee)
- *   ../../Worker.sol   (priceFeed, workerFeeLib, defaultMultiplierBps, allowlistSize, roles)
- *   ../../MultiSig.sol (signers, signerSize, quorum)
+ *   ../../Worker.sol   (priceFeed, workerFeeLib, defaultMultiplierBps, allowlistSize, paused)
+ *   ../../MultiSig.sol (signers, signerSize, quorum, UpdateSigner)
  */
-import { keccak256, toBytes } from 'viem';
-
 export const dvnAbi = [
   // --- MultiSig ---
   { type: 'function', name: 'quorum', stateMutability: 'view', inputs: [], outputs: [{ type: 'uint64' }] },
@@ -28,7 +26,6 @@ export const dvnAbi = [
       { name: '_active', type: 'bool', indexed: false },
     ],
   },
-  { type: 'event', name: 'UpdateQuorum', inputs: [{ name: '_quorum', type: 'uint64', indexed: false }] },
 
   // --- Worker ---
   { type: 'function', name: 'priceFeed', stateMutability: 'view', inputs: [], outputs: [{ type: 'address' }] },
@@ -36,23 +33,6 @@ export const dvnAbi = [
   { type: 'function', name: 'defaultMultiplierBps', stateMutability: 'view', inputs: [], outputs: [{ type: 'uint16' }] },
   { type: 'function', name: 'allowlistSize', stateMutability: 'view', inputs: [], outputs: [{ type: 'uint64' }] },
   { type: 'function', name: 'paused', stateMutability: 'view', inputs: [], outputs: [{ type: 'bool' }] },
-  {
-    type: 'function',
-    name: 'hasRole',
-    stateMutability: 'view',
-    inputs: [
-      { name: 'role', type: 'bytes32' },
-      { name: 'account', type: 'address' },
-    ],
-    outputs: [{ type: 'bool' }],
-  },
-  {
-    type: 'function',
-    name: 'getRoleMemberCount',
-    stateMutability: 'view',
-    inputs: [{ name: 'role', type: 'bytes32' }],
-    outputs: [{ type: 'uint256' }],
-  },
 
   // --- DVN ---
   { type: 'function', name: 'vid', stateMutability: 'view', inputs: [], outputs: [{ type: 'uint32' }] },
@@ -83,22 +63,6 @@ export const dvnAbi = [
 
 export const priceFeedAbi = [
   { type: 'function', name: 'nativeTokenPriceUSD', stateMutability: 'view', inputs: [], outputs: [{ type: 'uint128' }] },
-  {
-    type: 'function',
-    name: 'estimateFeeByEid',
-    stateMutability: 'view',
-    inputs: [
-      { name: '_dstEid', type: 'uint32' },
-      { name: '_callDataSize', type: 'uint256' },
-      { name: '_gas', type: 'uint256' },
-    ],
-    outputs: [
-      { name: 'fee', type: 'uint256' },
-      { name: 'priceRatio', type: 'uint128' },
-      { name: 'priceRatioDenominator', type: 'uint128' },
-      { name: 'priceUSD', type: 'uint128' },
-    ],
-  },
 ] as const;
 
 /**
@@ -140,11 +104,3 @@ export const dvnFeeLibAbi = [
     outputs: [{ name: 'fee', type: 'uint256' }],
   },
 ] as const;
-
-/** Role identifiers as defined in Worker.sol — computed, never hardcoded. */
-export const ROLE = {
-  ADMIN: keccak256(toBytes('ADMIN_ROLE')),
-  MESSAGE_LIB: keccak256(toBytes('MESSAGE_LIB_ROLE')),
-  ALLOWLIST: keccak256(toBytes('ALLOWLIST')),
-  DENYLIST: keccak256(toBytes('DENYLIST')),
-} as const;

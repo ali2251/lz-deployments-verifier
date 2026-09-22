@@ -1,0 +1,37 @@
+{
+  "$comment": "Solana publicKeys stores the pinned raw 64-byte secp256k1 key from Canary signer-info. The verifier validates and derives its address with keccak256(key)[-20:]. Other chains retain their address expectations.",
+  "chains": {
+    "solana": {
+      "quorum": 1,
+      "defaultMultiplierBps": 12000,
+      "destinationMultiplierBps": {
+        "default": 12000,
+        "ethereum": 10500
+      },
+      "publicKeys": [
+        "0xd171a4428246ac2fe197c6ffe4973809e8d8c797a9c24010a99e31e98fcceb3694be32cbaa366166cafe512728e543a99e575aecd94451608ea20206cc5639f8"
+      ]
+    },
+    "stellar": {
+      "signers": [
+        "0x70Da0d17248E28801f2FE4321497f8bbA57aC7c4"
+      ],
+      "quorum": 1,
+      "defaultMultiplierBps": 12000,
+      "destinationMultiplierBps": {
+        "default": 12000,
+        "ethereum": 10500
+      }
+    },
+    "tron": {
+      "signers": [
+        "0x869bFFb8777378343631ae99A5ef68d406Ab774c"
+      ],
+      "quorum": 1,
+      "defaultMultiplierBps": 12000,
+      "destinationMultiplierBps": {
+        "default": 12000
+      }
+    }
+  }
+}

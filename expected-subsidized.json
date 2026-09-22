@@ -1,10 +1,10 @@
 {
   "$comment": [
-    "Expected on-chain state for the canary-sponsored DVN deployment.",
-    "The signer is pinned in src/signers.ts; this file cannot override it.",
-    "Exact set verification requires signerSize == signers.length and membership of every expected signer."
+    "Expected state for canary-subsidized. The EVM signer is pinned in src/signers.ts and cannot be overridden by this file.",
+    "A $0.25 floor at the configured 1e20 USD denominator is 25000000000000000000.",
+    "A binding USD floor is allowed for subsidized pathways; exact floorMarginUSD is still checked for every destination."
   ],
-  "deployment": "canary-sponsored",
+  "deployment": "canary-subsidized",
   "signers": [
     "0x6d695bDb416274d37fb877f5f46A3F20c9343D80"
   ],
@@ -18,7 +18,7 @@
   },
   "dstConfig": {
     "default": {
-      "floorMarginUSD": "0",
+      "floorMarginUSD": "25000000000000000000",
       "multiplierBps": null,
       "minGas": 1
     },
@@ -30,7 +30,7 @@
     "confirmations": 1,
     "options": "0x",
     "maxUsd": null,
-    "requireFloorNotBinding": true
+    "requireFloorNotBinding": false
   },
   "usdDenominator": "100000000000000000000"
 }

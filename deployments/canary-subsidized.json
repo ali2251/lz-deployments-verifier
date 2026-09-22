@@ -1,0 +1,51 @@
+{
+  "canonicalName": "canary-subsidized",
+  "config": {
+    "pathwayFloorMarginUSD": {
+      "defaultSrcChainConfig": { "default": "0.25" }
+    },
+    "contractVersion": "1.1",
+    "contractAddresses": {
+      "optimism": "0xf7859b3ada3b2fcb60202f1bed0bf58a3e74f67e",
+      "sei": "0x4a4050156242ccaa67c4b5a2b31ddfdb1fe787cd",
+      "scroll": "0xb42726e41dbe96fc4ea6d73cd792167608353698",
+      "chiliz": "0x70dc2cb59344391fd8d46938cc0b4495c82ca57d",
+      "morph": "0xc4df7f3f230aee0a8cca85b44817f53e56ce524d",
+      "kite": "0xde79818c75649773fc462e9d3134b23b81741481",
+      "codex": "0x46c5a84f7814c5b83b50652d86ae8a5e90c163fe",
+      "avalanche": "0xe057124bb34312127730d968923a5407435945e6",
+      "base": "0xdcacd7e37f392ffad4b2703a21f6a0c8e2451e96",
+      "polygon": "0xb16a4842182655c6c539c00b257d49a1e9571511",
+      "plumephoenix": "0x87a4d47918e83df0fcf6040dbdc358119f7deb2a",
+      "fraxtal": "0x1176b42a5c76b41e0895705af028ff8a75c08156",
+      "robinhood": "0x80008db0e86e421c50aab5f5b5eba904e9a54b69",
+      "zkconsensys": "0xd9f8e2d7c8a12ccd8ac7d95a8ab2051a5e057ba4",
+      "kava": "0x56d675bfd1574ff170723689223c3a93dee5fa78",
+      "flow": "0x2b4655116c78893ae1b40587c79fcd96909b7d12",
+      "stable": "0xbbada47d1dd5f5b04414178e841a5a508c57bfaf",
+      "monad": "0x3b3c3ad540829d57af7b22c6cdff83fe7d43a8b6",
+      "ink": "0x19f6b66c598ac6e39cddbf26ed3d0317762a4a35",
+      "abstract": "0x5fcb884e2e91e2f3addb0fb7b1e38b303c77144b",
+      "citrea": "0xc78adea35b887e5b1534694eca28cbef12e95818",
+      "hyperliquid": "0x705d38395b0a3757ca399b047e9f5934c0530ca4",
+      "plasma": "0xfc9f1c561aef95cd4b8d4621f85bdf374fde2e6d",
+      "bera": "0x2649bfeb5e1f115b3ba744262a65cb8da794a37d",
+      "katana": "0x45c09dc691b0ad798e10d38b97e9dfd917d4b680",
+      "mode": "0x8d91b4d83fbea8fdeab4a40d880a6bb048ca622f",
+      "zksync": "0xa79928527cd5dba6f85cddf1bd40ff34a6b5e56f",
+      "mantle": "0x6de158a8df33b336d2bdb39d07c13bb791af74c4",
+      "arbitrum": "0x4b61abbf0248a564c02fc252a22739d33b76dcf6",
+      "megaeth": "0xd29dcf66e264aa7d6833bdac6b9279791a7c246b",
+      "ethereum": "0x8bd47cbd47980cc6f3f8451fa7586548014b10db",
+      "sonic": "0x6995acd4ae604f8f334f5309a75232544f78e0c9",
+      "xlayer": "0x1176b42a5c76b41e0895705af028ff8a75c08156",
+      "bsc": "0x165bcb144efe79a955c608a3d69e08e21c91c79d",
+      "manta": "0x3b3c3ad540829d57af7b22c6cdff83fe7d43a8b6",
+      "blast": "0xc4305b4a16cb631cbd34b33380fb8c221cdf63ab",
+      "zircuit": "0x7bbc27a2643d6cb9d07b279e512ba42400de9a8b",
+      "metis": "0x38a1712e55b1d490b748e85475b79f7c7d0e26c6",
+      "unichain": "0xbf46508b127aca0890fd4e00f3a42a2aeeb63273"
+    },
+    "uris": ["https://layer0.canaryprotocol.com"]
+  }
+}

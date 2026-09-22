@@ -1,5 +1,13 @@
 node_modules/
 .cache/
-rpc-overrides.json
-report.json
-report.md
+# Generated verification/coverage reports are local-only.
+# Write custom report filenames under reports/ as well.
+/reports/
+/*report*.json
+/*report*.md
+
+# secrets — rpc-overrides.json now holds ${ALCHEMY_KEY} placeholders and is tracked,
+# the real key lives here and must never be committed
+.env
+.env.*
+!.env.example

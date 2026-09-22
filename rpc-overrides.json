@@ -1,0 +1,269 @@
+{
+  "$comment": [
+    "STEP 1: put your Alchemy key in .env at the repo root, without the alch_ prefix:",
+    "          ALCHEMY_KEY=your-key-here",
+    "        .env is gitignored, so the key never reaches a commit. This file is safe to push.",
+    "STEP 2: npm run verify -- --no-quote -v",
+    "",
+    "${ALCHEMY_KEY} below is substituted from the environment at load time. A real shell",
+    "export of the same name also works and takes precedence over .env.",
+    "",
+    "'@auto' expands to the endpoints resolved automatically (LayerZero metadata + chainlist).",
+    "Every chain below is 'try Alchemy first, then fall back to public', so a slug Alchemy",
+    "does not serve costs one failed DNS lookup and the chain still gets verified.",
+    "",
+    "Every endpoint is chain-id checked and eth_call-probed before use, so neither a wrong URL",
+    "nor a provider that blocks contract reads can decide a chain's result - it is skipped",
+    "and the next candidate is tried.",
+    "",
+    "SLUGS: chains marked (confirmed) come from the Network enum in alchemy-sdk-js.",
+    "Chains marked (guessed) are not in that enum - the enum lags what Alchemy actually",
+    "serves (stable-mainnet is live but absent from it), so they are worth attempting.",
+    "Run with -v to see which endpoint each chain actually used."
+  ],
+  "$slugs": {
+    "confirmed": [
+      "abstract",
+      "ape",
+      "arbitrum",
+      "astar",
+      "avalanche",
+      "bera",
+      "bsc",
+      "celo",
+      "ethereum",
+      "flow",
+      "ink",
+      "mantle",
+      "metis",
+      "optimism",
+      "plasma",
+      "polygon",
+      "rootstock",
+      "sei",
+      "soneium",
+      "stable",
+      "story",
+      "unichain",
+      "worldchain"
+    ],
+    "guessed": [
+      "conflux",
+      "coredao",
+      "flare",
+      "fuse",
+      "goat",
+      "gravity",
+      "hedera",
+      "hemi",
+      "iota",
+      "islander",
+      "kava",
+      "klaytn",
+      "megaeth",
+      "monad",
+      "morph",
+      "nibiru",
+      "og",
+      "peaq",
+      "plumephoenix",
+      "somnia",
+      "tempo",
+      "xdc",
+      "xlayer"
+    ]
+  },
+  "abstract": [
+    "https://abstract-mainnet.g.alchemy.com/v2/alch_${ALCHEMY_KEY}",
+    "@auto"
+  ],
+  "ape": [
+    "https://apechain-mainnet.g.alchemy.com/v2/alch_${ALCHEMY_KEY}",
+    "@auto"
+  ],
+  "arbitrum": [
+    "https://arb-mainnet.g.alchemy.com/v2/alch_${ALCHEMY_KEY}",
+    "@auto"
+  ],
+  "astar": [
+    "https://astar-mainnet.g.alchemy.com/v2/alch_${ALCHEMY_KEY}",
+    "@auto"
+  ],
+  "avalanche": [
+    "https://avax-mainnet.g.alchemy.com/v2/alch_${ALCHEMY_KEY}",
+    "@auto"
+  ],
+  "bera": [
+    "https://berachain-mainnet.g.alchemy.com/v2/alch_${ALCHEMY_KEY}",
+    "@auto"
+  ],
+  "bsc": [
+    "https://bnb-mainnet.g.alchemy.com/v2/alch_${ALCHEMY_KEY}",
+    "@auto"
+  ],
+  "celo": [
+    "https://celo-mainnet.g.alchemy.com/v2/alch_${ALCHEMY_KEY}",
+    "@auto"
+  ],
+  "conflux": [
+    "https://conflux-mainnet.g.alchemy.com/v2/alch_${ALCHEMY_KEY}",
+    "@auto"
+  ],
+  "coredao": [
+    "https://core-mainnet.g.alchemy.com/v2/alch_${ALCHEMY_KEY}",
+    "https://coredao-mainnet.g.alchemy.com/v2/alch_${ALCHEMY_KEY}",
+    "@auto"
+  ],
+  "ethereum": [
+    "https://eth-mainnet.g.alchemy.com/v2/alch_${ALCHEMY_KEY}",
+    "@auto"
+  ],
+  "fantom": [
+    "https://fantom.drpc.org",
+    "https://rpc.fantom.network",
+    "@auto"
+  ],
+  "flare": [
+    "https://flare-mainnet.g.alchemy.com/v2/alch_${ALCHEMY_KEY}",
+    "@auto"
+  ],
+  "flow": [
+    "https://flow-mainnet.g.alchemy.com/v2/alch_${ALCHEMY_KEY}",
+    "@auto"
+  ],
+  "fuse": [
+    "https://fuse-mainnet.g.alchemy.com/v2/alch_${ALCHEMY_KEY}",
+    "@auto"
+  ],
+  "goat": [
+    "https://goat-mainnet.g.alchemy.com/v2/alch_${ALCHEMY_KEY}",
+    "@auto"
+  ],
+  "gravity": [
+    "https://gravity-mainnet.g.alchemy.com/v2/alch_${ALCHEMY_KEY}",
+    "@auto"
+  ],
+  "hedera": [
+    "https://hedera-mainnet.g.alchemy.com/v2/alch_${ALCHEMY_KEY}",
+    "@auto"
+  ],
+  "hemi": [
+    "https://hemi-mainnet.g.alchemy.com/v2/alch_${ALCHEMY_KEY}",
+    "@auto"
+  ],
+  "ink": [
+    "https://ink-mainnet.g.alchemy.com/v2/alch_${ALCHEMY_KEY}",
+    "@auto"
+  ],
+  "iota": [
+    "https://iota-mainnet.g.alchemy.com/v2/alch_${ALCHEMY_KEY}",
+    "@auto"
+  ],
+  "islander": [
+    "https://islander-mainnet.g.alchemy.com/v2/alch_${ALCHEMY_KEY}",
+    "@auto"
+  ],
+  "kava": [
+    "https://kava-mainnet.g.alchemy.com/v2/alch_${ALCHEMY_KEY}",
+    "@auto"
+  ],
+  "klaytn": [
+    "https://kaia-mainnet.g.alchemy.com/v2/alch_${ALCHEMY_KEY}",
+    "https://klaytn-mainnet.g.alchemy.com/v2/alch_${ALCHEMY_KEY}",
+    "@auto"
+  ],
+  "mantle": [
+    "https://mantle-mainnet.g.alchemy.com/v2/alch_${ALCHEMY_KEY}",
+    "@auto"
+  ],
+  "megaeth": [
+    "https://megaeth-mainnet.g.alchemy.com/v2/alch_${ALCHEMY_KEY}",
+    "@auto"
+  ],
+  "metis": [
+    "https://metis-mainnet.g.alchemy.com/v2/alch_${ALCHEMY_KEY}",
+    "@auto"
+  ],
+  "monad": [
+    "https://monad-mainnet.g.alchemy.com/v2/alch_${ALCHEMY_KEY}",
+    "@auto"
+  ],
+  "morph": [
+    "https://morph-mainnet.g.alchemy.com/v2/alch_${ALCHEMY_KEY}",
+    "@auto"
+  ],
+  "nibiru": [
+    "https://nibiru-mainnet.g.alchemy.com/v2/alch_${ALCHEMY_KEY}",
+    "@auto"
+  ],
+  "og": [
+    "https://0g-mainnet.g.alchemy.com/v2/alch_${ALCHEMY_KEY}",
+    "https://og-mainnet.g.alchemy.com/v2/alch_${ALCHEMY_KEY}",
+    "@auto"
+  ],
+  "optimism": [
+    "https://opt-mainnet.g.alchemy.com/v2/alch_${ALCHEMY_KEY}",
+    "@auto"
+  ],
+  "peaq": [
+    "https://peaq-mainnet.g.alchemy.com/v2/alch_${ALCHEMY_KEY}",
+    "@auto"
+  ],
+  "plasma": [
+    "https://plasma-mainnet.g.alchemy.com/v2/alch_${ALCHEMY_KEY}",
+    "@auto"
+  ],
+  "plumephoenix": [
+    "https://plume-mainnet.g.alchemy.com/v2/alch_${ALCHEMY_KEY}",
+    "https://plumephoenix-mainnet.g.alchemy.com/v2/alch_${ALCHEMY_KEY}",
+    "@auto"
+  ],
+  "polygon": [
+    "https://polygon-mainnet.g.alchemy.com/v2/alch_${ALCHEMY_KEY}",
+    "@auto"
+  ],
+  "rootstock": [
+    "https://rootstock-mainnet.g.alchemy.com/v2/alch_${ALCHEMY_KEY}",
+    "@auto"
+  ],
+  "sei": [
+    "https://sei-mainnet.g.alchemy.com/v2/alch_${ALCHEMY_KEY}",
+    "@auto"
+  ],
+  "somnia": [
+    "https://somnia-mainnet.g.alchemy.com/v2/alch_${ALCHEMY_KEY}",
+    "@auto"
+  ],
+  "soneium": [
+    "https://soneium-mainnet.g.alchemy.com/v2/alch_${ALCHEMY_KEY}",
+    "@auto"
+  ],
+  "stable": [
+    "https://stable-mainnet.g.alchemy.com/v2/alch_${ALCHEMY_KEY}",
+    "@auto"
+  ],
+  "story": [
+    "https://story-mainnet.g.alchemy.com/v2/alch_${ALCHEMY_KEY}",
+    "@auto"
+  ],
+  "tempo": [
+    "https://tempo-mainnet.g.alchemy.com/v2/alch_${ALCHEMY_KEY}",
+    "@auto"
+  ],
+  "unichain": [
+    "https://unichain-mainnet.g.alchemy.com/v2/alch_${ALCHEMY_KEY}",
+    "@auto"
+  ],
+  "worldchain": [
+    "https://worldchain-mainnet.g.alchemy.com/v2/alch_${ALCHEMY_KEY}",
+    "@auto"
+  ],
+  "xdc": [
+    "https://xdc-mainnet.g.alchemy.com/v2/alch_${ALCHEMY_KEY}",
+    "@auto"
+  ],
+  "xlayer": [
+    "https://xlayer-mainnet.g.alchemy.com/v2/alch_${ALCHEMY_KEY}",
+    "@auto"
+  ]
+}
