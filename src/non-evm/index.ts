@@ -17,7 +17,7 @@ import { fromRoot } from '../paths.js';
 import { assertHardcodedSigner, resolveSolanaSignerPolicy } from '../signers.js';
 import type { Destination } from '../types.js';
 import { USDT0_EXCLUSIONS, usdt0VerificationChains } from '../usdt0-scope.js';
-import { completedSnapshot, SOURCES, validateChain, validateExpectations, type Source } from './policy.js';
+import { completedSnapshot, SOURCES, validateChain, validateExpectations, validateSigners, type Source } from './policy.js';
 import { toJson } from './run.js';
 
 const REPORTS_DIR = fromRoot('reports/usdt0-non-evm');
@@ -38,6 +38,8 @@ const MODES: Record<string, Source[]> = {
 /** Per source: what the collector read, plus the verdict. */
 interface ChainReport {
   status: 'PASS' | 'FAIL';
+  /** the observed signer set is exactly the pinned one, with the expected quorum */
+  signerVerified: boolean;
   errors: string[];
   signerAddresses?: string[];
 }
@@ -161,10 +163,13 @@ function evaluate(source: Source, runDir: string, report: Report, expected: any)
     if (!completedSnapshot(snapshot, report.runId, report.startedAt)) {
       throw new Error('stale or incomplete result; run ID/completion invalid');
     }
-    const errors = validateChain(source, snapshot, expected.chains[source], report.destinations!);
-    return { chain: { ...snapshot, status: errors.length ? 'FAIL' : 'PASS', errors }, errors };
+    const policy = expected.chains[source];
+    const errors = validateChain(source, snapshot, policy, report.destinations!);
+    const signerVerified = validateSigners(source, snapshot, policy).length === 0;
+    return { chain: { ...snapshot, status: errors.length ? 'FAIL' : 'PASS', signerVerified, errors }, errors };
   } catch (err) {
-    return { chain: { status: 'FAIL', errors: ['Required reads incomplete'] }, errors: [`${source}: ${errorMessage(err)}`] };
+    const chain: ChainReport = { status: 'FAIL', signerVerified: false, errors: ['Required reads incomplete'] };
+    return { chain, errors: [`${source}: ${errorMessage(err)}`] };
   }
 }
 
@@ -212,7 +217,8 @@ function publish(report: Report, runDir: string): void {
   const markdownFile = join(runDir, 'results.md');
   const chainLines = Object.entries(report.chains).map(([name, chain]) => {
     const signers = (chain.signerAddresses ?? []).join(', ') || 'unavailable';
-    return `${name}: ${chain.status}; observed/confirmed signers: ${signers}`;
+    const signerCheck = chain.signerVerified ? 'signer VERIFIED' : 'signer NOT VERIFIED';
+    return `${name}: ${chain.status}; ${signerCheck}; observed/confirmed signers: ${signers}`;
   });
   const lines = [
     `# USDT0 non-EVM: ${report.status}`,
@@ -281,6 +287,9 @@ async function main(): Promise<number> {
   publish(report, runDir);
 
   console.log(`${report.status}: ${report.scopeKind}`);
+  for (const [name, chain] of Object.entries(report.chains)) {
+    console.log(`${name}: ${chain.status}; signer ${chain.signerVerified ? 'VERIFIED' : 'NOT VERIFIED'}`);
+  }
   for (const error of report.errors) console.error(error);
   console.log(`Report: ${join(runDir, 'results.md')}`);
   return report.status === 'PASS' ? 0 : 1;

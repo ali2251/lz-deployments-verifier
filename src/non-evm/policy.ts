@@ -143,6 +143,33 @@ function pathwayProblems(pathway: PathwaySnapshot, expectedMultiplierBps: number
   return problems;
 }
 
+/**
+ * Every way the observed signer set falls short of the expected one. An empty list means
+ * the signer set is verified: exactly the pinned signers, with the expected quorum.
+ */
+export function validateSigners(name: Source, snapshot: Partial<ChainSnapshot>, expected: Expectation): string[] {
+  const errors: string[] = [];
+  const fail = (problem: string) => errors.push(`${name}: ${problem}`);
+
+  if (name === 'solana' && expected.publicKeys) {
+    const keys = snapshot.signerPublicKeys;
+    if (!isStringArray(keys) || !sameSet(keys, expected.publicKeys)) fail('public key set mismatch or missing');
+  }
+  const signers = snapshot.signerAddresses;
+  if (!isStringArray(signers) || !signers.every((signer) => isAddress(signer, { strict: false }))) {
+    fail('signer read missing/invalid');
+  } else if (!sameSet(signers, expected.signers)) {
+    const list = (values: string[]) => lowercaseSorted(values).join(', ');
+    fail(`signer set mismatch: expected ${list(expected.signers)}, observed ${list(signers)}`);
+  }
+  if (name === 'tron') {
+    if (snapshot.signerSetMatchesExpected !== true) fail('expected signer membership/count check failed or incomplete');
+    if (String(snapshot.signerSize) !== String(expected.signers.length)) fail('signer count mismatch or missing');
+  }
+  if (String(snapshot.quorum) !== String(expected.quorum)) fail('quorum mismatch or missing');
+  return errors;
+}
+
 /** Every way `snapshot` falls short of `expected`. An empty list means the chain passes. */
 export function validateChain(
   name: Source,
@@ -159,25 +186,10 @@ export function validateChain(
     if (snapshot.checks?.[check] !== true) fail(`${check} verification incomplete`);
   }
 
-  // --- signers ---
-  if (name === 'solana' && expected.publicKeys) {
-    const keys = snapshot.signerPublicKeys;
-    if (!isStringArray(keys) || !sameSet(keys, expected.publicKeys)) fail('public key set mismatch or missing');
-  }
-  const signers = snapshot.signerAddresses;
-  if (!isStringArray(signers) || !signers.every((signer) => isAddress(signer, { strict: false }))) {
-    fail('signer read missing/invalid');
-  } else if (!sameSet(signers, expected.signers)) {
-    const list = (values: string[]) => lowercaseSorted(values).join(', ');
-    fail(`signer set mismatch: expected ${list(expected.signers)}, observed ${list(signers)}`);
-  }
-  if (name === 'tron') {
-    if (snapshot.signerSetMatchesExpected !== true) fail('expected signer membership/count check failed or incomplete');
-    if (String(snapshot.signerSize) !== String(expected.signers.length)) fail('signer count mismatch or missing');
-  }
+  // --- signers and quorum ---
+  errors.push(...validateSigners(name, snapshot, expected));
 
   // --- worker ---
-  if (String(snapshot.quorum) !== String(expected.quorum)) fail('quorum mismatch or missing');
   if (snapshot.paused !== false) fail('pause check failed or missing');
   if (String(snapshot.allowlistSize) !== '0') fail('allowlist must be empty');
   if (snapshot.defaultMultiplierBps !== expected.defaultMultiplierBps) fail('default multiplier mismatch or missing');

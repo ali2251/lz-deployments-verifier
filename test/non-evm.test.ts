@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { test } from 'node:test';
-import { completedSnapshot, SOURCES, validateChain, validateExpectations, type Expectation } from '../src/non-evm/policy.js';
+import { completedSnapshot, SOURCES, validateChain, validateExpectations, validateSigners, type Expectation } from '../src/non-evm/policy.js';
 import { resolveSolanaSignerPolicy } from '../src/signers.js';
 import { fromRoot, readJson, runCli, tempJson } from './helpers.js';
 
@@ -81,6 +81,17 @@ test('PASS requires the exact expected signer set, not just a count', () => {
   for (const signerAddresses of [[], [OTHER_SIGNER], [SIGNER, SIGNER], [SIGNER, OTHER_SIGNER], undefined]) {
     assert.ok(validate({ ...passingSnapshot(), signerAddresses }).length > 0, JSON.stringify(signerAddresses));
   }
+});
+
+test('the signer verdict covers the signer set and quorum, and nothing else', () => {
+  assert.deepEqual(validateSigners('solana', passingSnapshot(), expectation), []);
+  assert.ok(validateSigners('solana', { ...passingSnapshot(), signerAddresses: [OTHER_SIGNER] }, expectation).length > 0);
+  assert.ok(validateSigners('solana', { ...passingSnapshot(), quorum: 2 }, expectation).length > 0);
+  // a fee problem fails the chain but does not change the signer verdict
+  const feeProblem = passingSnapshot();
+  feeProblem.pathways[0].quoteStatus = 'FAIL';
+  assert.deepEqual(validateSigners('solana', feeProblem, expectation), []);
+  assert.ok(validate(feeProblem).length > 0);
 });
 
 test('Solana requires the full expected public key as well as its derived address', () => {
@@ -197,6 +208,7 @@ test('a policy that tries to replace the Solana signer fails before any network 
   assert.equal(report.runId, latest.runId);
   assert.equal(report.status, 'FAIL');
   assert.deepEqual(report.chains, {});
+  assert.doesNotMatch(readFileSync(latest.report, 'utf8'), /signer VERIFIED/);
 });
 
 test('help exits 0; invalid arguments exit 2 without creating a run', () => {

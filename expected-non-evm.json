@@ -30,7 +30,8 @@
       "quorum": 1,
       "defaultMultiplierBps": 12000,
       "destinationMultiplierBps": {
-        "default": 12000
+        "default": 12000,
+        "ethereum": 10500
       }
     }
   }

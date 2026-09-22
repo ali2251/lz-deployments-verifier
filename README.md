@@ -343,7 +343,8 @@ The non-EVM policy requires:
 - Unpaused state, empty allowlist and the expected default multiplier (12000).
 - Exactly one result per required destination, with the correct EID, positive gas,
   a zero sponsored floor and the expected destination multiplier. The shipped policy
-  uses 12000, except Solana/Stellar → Ethereum uses 10500.
+  uses 12000, except that every source → Ethereum uses 10500 (the same schedule the
+  EVM sources use).
 - A successful nonnegative fee return for every required route. **Zero is valid**;
   missing, malformed, negative or failed reads are not.
 - A completed snapshot from the current run ID with a valid completion timestamp.
@@ -363,7 +364,9 @@ with its inputs, raw read evidence and final JSON/Markdown. One collector per so
 chain runs as a child process and writes its reads to `<chain>-final.json`; a chain
 passes only if its own snapshot completed in this run, so one chain's collection
 failure does not invalidate another chain's reads (the run as a whole still fails).
-`latest.json` points to the latest run, which may be partial or failed. Reports begin as FAIL/incomplete and
+`latest.json` points to the latest run, which may be partial or failed. Each chain line in
+`results.md` states `signer VERIFIED` only when the observed signer set is exactly the pinned
+set with the expected quorum. Reports begin as FAIL/incomplete and
 become PASS only when every selected check completes. Partial runs are labeled and
 are not combined with evidence from other runs. Intermediate `READ_OK` messages do
 not mean the chain or complete run passed.
